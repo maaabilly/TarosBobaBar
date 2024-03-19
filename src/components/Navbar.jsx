@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { LuMenu, LuX } from 'react-icons/lu';
 import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 import NavLogo from './NavLogo';
-import { textLogo } from '../assets';
 import { navigation } from '../constants';
 import Button from './Button';
 import { Link } from 'react-router-dom';
