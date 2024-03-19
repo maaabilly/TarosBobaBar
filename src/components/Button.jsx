@@ -1,5 +1,5 @@
 const Button = ({ className, style, children, href }) => {
-  const classes = 'font-md py-3 rounded-md text-nowrap transition-all';
+  const classes = 'font-medium py-3 rounded-md text-nowrap transition-all btn-gradient';
   const renderStyle = (style) => {
     if (style === 'primary') {
       return 'bg-violet-500 text-white hover:bg-violet-700';

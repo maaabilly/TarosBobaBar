@@ -22,7 +22,7 @@ const About = () => {
           </h2>
           <p className="text-slate-700 max-w-[700px] mb-5">{about.content}</p>
           <Button
-            style="secondary"
+            style="primary"
             href="/menu"
             className="md:hidden w-[150px]"
           >

@@ -6,10 +6,10 @@ import { LuCheckCircle2 } from 'react-icons/lu';
 
 const Pricing = () => {
   return (
-    <div className="w-full py-[6rem] px-4 bg-gray-100" id="services">
+    <div className="w-full py-[6rem] px-4 " id="services">
       <div className="max-w-[1240px] mx-auto">
         <p className="text-slate-700 text-center uppercase font-bold">
-          How may we serve you?
+          How can we serve you?
         </p>
         <h1 className="md:text-4xl sm:text-3xl text-2xl text-center font-bold mt-2 mb-[2.5rem]">
           Our Services
@@ -18,13 +18,14 @@ const Pricing = () => {
       <Tabs>
         <Tab label="On Site Barista">
           <div className="py-4">
-            <h2 className="text-2xl md:text-3xl text-center mb-5">
+            <h2 className="hidden md:block text-2xl md:text-3xl text-center mb-5">
               Premium On Site Barista
             </h2>
-            <div className="flex flex-col md:flex-row items-center mb-8 p-8 rounded-3xl overflow-hidden xl:h-[46rem] bg-violet-200 ring-[3px] ring-violet-400">
+            <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden xl:h-[46rem] neumorphism">
               <div className="flex-1 mb-4 md:mb-0">
                 <img src={barista} alt="barista" className="rounded-3xl" />
               </div>
+
               <div className="flex justify-start flex-col flex-1 w-full pl-2 md:pl-10">
                 <p className="text-2xl mt-2 ">Starting at</p>
                 <div className="flex justify-start text-5xl md:text-6xl mb-4">
@@ -49,10 +50,10 @@ const Pricing = () => {
         </Tab>
         <Tab label="Self Serve Station">
           <div className="py-4">
-            <h2 className="text-2xl md:text-3xl text-center mb-5">
+            <h2 className="hidden md:block text-2xl md:text-3xl text-center mb-5">
               Fully Equipped Self Serve Boba Station
             </h2>
-            <div className="flex flex-col md:flex-row items-center mb-8 p-8 rounded-3xl overflow-hidden xl:h-[46rem] bg-violet-200 ring-[3px] ring-violet-400">
+            <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden xl:h-[46rem] neumorphism">
               <div className="flex-1 mb-4 md:mb-0">
                 <img src={stand2} alt="barista" className="rounded-3xl" />
               </div>
@@ -84,10 +85,10 @@ const Pricing = () => {
         </Tab>
         <Tab label="Delivery Drop Off">
           <div className="py-4">
-            <h2 className="text-2xl md:text-3xl text-center mb-5">
+            <h2 className="hidden md:block text-2xl md:text-3xl text-center mb-5">
               Pre-packaged Boba Delivery
             </h2>
-            <div className="flex flex-col md:flex-row items-center mb-8 p-8 rounded-3xl overflow-hidden xl:h-[46rem] bg-violet-200 ring-[3px] ring-violet-400">
+            <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden xl:h-[46rem] neumorphism">
               <div className="flex-1 mb-4 md:mb-0">
                 <img
                   src={delivery}
