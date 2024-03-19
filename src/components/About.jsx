@@ -17,11 +17,15 @@ const About = () => {
           <p className="text-slate-700 uppercase font-bold">
             {about.subheading}
           </p>
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold mt-2 mb-4">
+          <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold mt-2 mb-4">
             {about.heading}
-          </h1>
+          </h2>
           <p className="text-slate-700 max-w-[700px] mb-5">{about.content}</p>
-          <Button style="secondary" className="md:hidden w-[150px]">
+          <Button
+            style="secondary"
+            href="/menu"
+            className="md:hidden w-[150px]"
+          >
             View Menu
           </Button>
         </div>

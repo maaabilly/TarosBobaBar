@@ -2,8 +2,10 @@ import { useState } from 'react';
 import { LuMenu, LuX } from 'react-icons/lu';
 import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 import NavLogo from './NavLogo';
+import { textLogo } from '../assets';
 import { navigation } from '../constants';
 import Button from './Button';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -16,7 +18,6 @@ const Navbar = () => {
       setNav(true);
       disablePageScroll();
     }
-    nav;
   };
 
   const handleClick = () => {
@@ -43,9 +44,20 @@ const Navbar = () => {
               </a>
             </li>
           ))}
+          <Link
+            to="/menu"
+            target="_blank"
+            className="text-md hover:text-violet-700  hover:font-bold transition-all flex justify-center"
+          >
+            Menu
+          </Link>
         </ul>
-        <Button style="primary" className="hidden md:block w-[150px] mr-5">
-          Ask for a quote
+        <Button
+          style="primary"
+          className="hidden md:block w-[150px] mr-5"
+          href="https://tarosbobabar.paperform.co"
+        >
+          Book Now
         </Button>
         <div
           onClick={toggleNav}
@@ -60,30 +72,33 @@ const Navbar = () => {
               : 'fixed left-0 top-[-100%] ease-in-out duration-500 w-full h-full md:hidden'
           }
         >
-          <h1 className="w-full text-3xl font-bold flex justify-center mt-10">
-            <a href="#home">TarosBobaBar</a>
-          </h1>
+          <NavLogo />
           <ul className="uppercase p-4 flex flex-col items-center justify-evenly h-[70%]">
             {navigation.map((link) => (
               <li key={link.id}>
                 <a
                   href={link.href}
                   onClick={handleClick}
-                  className="p-4 text-xl hover:tracking-wider transition-all duration-100"
+                  className="p-4 text-[1.5rem] hover:tracking-wider transition-all duration-100"
                 >
                   {link.title}
                 </a>
               </li>
             ))}
-            <li>
-              <a
-                href="#contact"
-                onClick={handleClick}
-                className="p-4 text-xl hover:tracking-wider transition-all duration-100"
-              >
-                Contact Us
-              </a>
-            </li>
+            <Link
+              to="/menu"
+              target="_blank"
+              className=" text-[1.5rem] hover:tracking-wider transition-all duration-100 mb-10"
+            >
+              Menu
+            </Link>
+            <Button
+              style="primary"
+              className="w-[150px]"
+              href="https://tarosbobabar.paperform.co"
+            >
+              Book Now
+            </Button>
           </ul>
         </div>
       </div>

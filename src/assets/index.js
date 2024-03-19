@@ -13,6 +13,7 @@ import sjsu from './icons/sjsu.png';
 import zip from './icons/zip.png';
 import textLogo from './icons/text-logo.png';
 import borderedLogo from './icons/bordered-logo.png';
+import delivery from './images/delivery.jpg';
 
 export {
   bobaIsLife,
@@ -30,4 +31,5 @@ export {
   zip,
   textLogo,
   borderedLogo,
+  delivery,
 };

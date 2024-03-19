@@ -6,7 +6,7 @@ import Button from './Button';
 const Hero = () => {
   return (
     <div className="w-full mx-auto" id="hero">
-      <div className="absolute w-full h-screen flex flex-col justify-center items-start z-10 bg-black/60 px-10 text-white">
+      <div className="absolute w-full h-screen flex flex-col justify-center items-start z-10 bg-black/60 px-10 text-white ">
         <div className="md:mx-[10%] lg:ml-[15%]">
           <p className="text-white lg:text-xl text-lg">{hero.subheading}</p>
           <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:pb-2">
@@ -31,9 +31,10 @@ const Hero = () => {
           </p>
           <Button
             style="primary"
+            href="https://tarosbobabar.paperform.co"
             className="md:hidden md:w-[180px] w-[150px] mt-8"
           >
-            Contact Us
+            Book Now
           </Button>
         </div>
       </div>

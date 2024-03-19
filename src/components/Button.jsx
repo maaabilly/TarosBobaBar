@@ -1,4 +1,4 @@
-const Button = ({ className, style, children }) => {
+const Button = ({ className, style, children, href }) => {
   const classes = 'font-md py-3 rounded-md text-nowrap transition-all';
   const renderStyle = (style) => {
     if (style === 'primary') {
@@ -12,7 +12,9 @@ const Button = ({ className, style, children }) => {
 
   return (
     <button className={`${classes} ${className || ''} ${renderStyle(style)}`}>
-      {children}
+      <a href={href || ''} target="_blank">
+        {children}
+      </a>
     </button>
   );
 };

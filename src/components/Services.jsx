@@ -6,9 +6,12 @@ const Services = () => {
     <div className="w-full py-[6rem] bg-gray-200" id="services">
       <div className="max-w-[1240px] mx-auto">
         <div className="mx-10 flex flex-col justify-center">
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold mb-10 span text-center ">
-            Services
-          </h1>
+          <p className="text-slate-700 text-center uppercase font-bold">
+            How may we serve you?
+          </p>
+          <h2 className="md:text-4xl sm:text-3xl text-2xl text-center font-bold mt-2 mb-[2.5rem]">
+            Our Services
+          </h2>
           <div className="flex flex-col md:flex-row items-center mb-8 p-8 rounded-3xl overflow-hidden xl:h-[46rem] bg-violet-200 ring-[3px] ring-violet-400">
             <div className="flex-1">
               <img src={barista} alt="barista" className="rounded-3xl" />
