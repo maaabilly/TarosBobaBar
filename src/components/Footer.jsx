@@ -1,4 +1,4 @@
-import { LuInstagram, LuFacebook } from 'react-icons/lu';
+import { LuInstagram } from 'react-icons/lu';
 import { FaYelp } from 'react-icons/fa';
 
 import { textLogo } from '../assets';
