@@ -12,6 +12,7 @@ import kpmg from './icons/kpmg.png';
 import sjsu from './icons/sjsu.png';
 import zip from './icons/zip.png';
 import textLogo from './icons/text-logo.png';
+import borderedLogo from './icons/bordered-logo.png';
 
 export {
   bobaIsLife,
@@ -28,4 +29,5 @@ export {
   sjsu,
   zip,
   textLogo,
+  borderedLogo,
 };

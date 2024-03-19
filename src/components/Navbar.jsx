@@ -27,9 +27,9 @@ const Navbar = () => {
   };
 
   return (
-    <>
-      <div className="flex justify-between sticky top-0 z-50 items-center h-20 max-w-[1240px] mx-auto px-4 text-slate-800 bg-[#f9f9f9]">
-        <NavLogo />
+    <div className=" sticky top-0 z-50  px-4 text-slate-800 bg-[#f9f9f9]">
+      <div className="max-w-[1240px] flex justify-between items-center h-20  mx-auto">
+        <NavLogo className={`ml-5`} />
         <ul
           className={`hidden w-[40%] md:grid md:grid-cols-4 gap-8 md:m-0 text-nowrap`}
         >
@@ -44,18 +44,15 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
-        <Button style="primary" className="hidden md:block w-[150px] ">
+        <Button style="primary" className="hidden md:block w-[150px] mr-5">
           Ask for a quote
         </Button>
-
         <div
           onClick={toggleNav}
           className="block md:hidden z-10 fixed top-5 right-5 cursor-pointer"
         >
           {nav ? <LuX size={35} /> : <LuMenu size={35} />}
         </div>
-
         <div
           className={
             nav
@@ -90,7 +87,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

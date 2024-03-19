@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="w-full mx-auto" id="hero">
       <div className="absolute w-full h-screen flex flex-col justify-center items-start z-10 bg-black/60 px-10 text-white">
-        <div className="md:mx-[10%]">
+        <div className="md:mx-[10%] lg:ml-[15%]">
           <p className="text-white lg:text-xl text-lg">{hero.subheading}</p>
           <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:pb-2">
             {hero.title}

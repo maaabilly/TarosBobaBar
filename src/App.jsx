@@ -12,9 +12,9 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <PreviousClients />
       <Services />
       <Pricing />
+      <PreviousClients />
       <Footer />
     </div>
   );

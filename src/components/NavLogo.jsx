@@ -1,17 +1,17 @@
-import { plainLogo } from '../assets';
-const NavLogo = () => {
+import { textLogo } from '../assets';
+const NavLogo = ({ className }) => {
   return (
-    <div className="flex justify-center items-center">
+    <div className={`flex justify-center items-center ${className}`}>
       <a href="#home">
         <img
-          src={plainLogo}
+          src={textLogo}
           alt="TarosBobaBar Logo"
-          width={50}
-          height={50}
+          width={100}
+          height={100}
           className="rounded-[100%]"
         />
       </a>
-      <h1 className="text-2xl font-bold ml-5">
+      <h1 className="hidden text-2xl font-bold ml-5">
         <a href="#home"> TarosBobaBar</a>
       </h1>
     </div>
