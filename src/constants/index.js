@@ -16,12 +16,14 @@ export const navigation = [
 ];
 export const hero = {
   img: bobaIsLife,
-  heading: '',
+  heading: `Make your next event packed with flavor and fun by catering with`,
+  brandName: 'tarosbobabar',
   subheading: 'Make your next event a Par-Tea!',
   subheading2: 'Your one stop shop for boba catering in the Bar Area!',
   reactTyped: {
     strings: ['Birthday!', 'Wedding!', 'Company Party!', 'Baby Shower!'],
-    classes: 'lg:text-7xl sm:text-5xl  text-[2rem] leading-10 font-bold h-[70px] sm:h-full ',
+    classes:
+      'lg:text-7xl sm:text-5xl  text-[2rem] leading-10 font-bold h-[70px] sm:h-full ',
   },
 };
 export const about = {

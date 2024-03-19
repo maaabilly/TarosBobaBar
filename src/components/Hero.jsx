@@ -7,12 +7,12 @@ const Hero = () => {
   return (
     <div className="w-full mx-auto" id="hero">
       <div className="absolute w-full h-[90%] z-10 px-10 mt-[15rem]">
-        <div className="md:mx-[10%] lg:ml-[15%] text-gray-800">
-          <p className="md:text-3xl sm:text-2xl text-xl  font-medium mb-4">
-            {hero.subheading}
+        <div className="md:mx-[10%] md:mt-[5rem] mt-[3rem] lg:ml-[15%] text-gray-800 ">
+          <p className="lg:text-3xl sm:text-2xl text-xl  font-medium mb-4 md:ml-[-30px]">
+            {hero.subheading2}
           </p>
           <div className="flex justify-start items-center">
-            <p className={hero.reactTyped.classes}>
+            <h1 className={hero.reactTyped.classes}>
               Book us for your <br />
               next{' '}
               <ReactTyped
@@ -23,25 +23,24 @@ const Hero = () => {
                 loop
                 showCursor={false}
               />
-            </p>
+            </h1>
           </div>
-          <p className="md:text-4xl sm:text-3xl text-2xl mt-16 sm:mt-8  font-medium text-left">
-            {hero.subheading2}
-          </p>
-          <Button
-            style="primary"
-            href="https://tarosbobabar.paperform.co"
-            className="md:hidden md:w-[180px] w-[150px] mt-8"
-          >
-            Book Now
-          </Button>
+          <div className="sm:mt-14 mt-16 ">
+            <Button
+              style="primary"
+              href="https://tarosbobabar.paperform.co"
+              className="md:hidden md:w-[180px] w-[150px] "
+            >
+              Book Now
+            </Button>
+          </div>
         </div>
       </div>
 
       <img
         src={heroBg}
         alt="Boba is lLife"
-        className="w-full h-dvh object-cover"
+        className="w-full h-dvh object-cover mt-[-80px]"
       />
     </div>
   );
