@@ -27,7 +27,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" sticky top-0 z-50  px-4 text-slate-800 bg-[#f9f9f9] nav-shadow">
+    <div className=" sticky top-0 z-50  px-4 text-slate-800 bg-[#f9f9f9] shadow">
       <div className="max-w-[1240px] flex justify-between items-center h-20  mx-auto">
         <NavLogo className={`ml-5`} />
         <ul

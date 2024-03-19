@@ -18,15 +18,15 @@ const Pricing = () => {
       <Tabs>
         <Tab label="On Site Barista">
           <div className="py-4">
-            <h4 className="hidden md:block text-2xl md:text-3xl text-center mb-5">
-              Premium On Site Barista
-            </h4>
             <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden xl:h-[46rem] neumorphism">
               <div className="flex-1 mb-4 md:mb-0">
                 <img src={barista} alt="barista" className="rounded-3xl" />
               </div>
 
               <div className="flex justify-start flex-col flex-1 w-full pl-2 md:pl-10">
+                <h4 className="hidden lg:block text-2xl md:text-3xl font-medium mb-5">
+                  Premium On Site Barista
+                </h4>
                 <p className="text-2xl mt-2 ">Starting at</p>
                 <div className="flex justify-start text-5xl md:text-6xl mb-4">
                   <span className="mt-2 text-2xl md:text-3xl">$</span>300{' '}

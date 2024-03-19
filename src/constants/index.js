@@ -20,9 +20,8 @@ export const hero = {
   subheading: 'Make your next event a Par-Tea!',
   subheading2: 'Your one stop shop for boba catering in the Bar Area!',
   reactTyped: {
-    static: `Book us for your next `,
     strings: ['Birthday!', 'Wedding!', 'Company Party!', 'Baby Shower!'],
-    classes: 'lg:text-8xl md:text-6xl sm:text-4xl  text-3xl font-bold h-[70px] sm:h-full ',
+    classes: 'lg:text-7xl sm:text-5xl  text-[2rem] leading-10 font-bold h-[70px] sm:h-full ',
   },
 };
 export const about = {
