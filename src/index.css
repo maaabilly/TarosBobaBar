@@ -24,8 +24,17 @@ body {
   background: rgb(255, 0, 157);
   background: linear-gradient(
     58deg,
-    rgba(255, 0, 157, 0.8376358695652174) 0%,
+    rgba(255, 0, 157, 0.8) 0%,
     rgba(227, 164, 188, 1) 100%
+  );
+}
+.active-btn-gradient {
+  background: rgb(255, 0, 157);
+  background: linear-gradient(
+    59deg,
+    rgba(255, 0, 157, 1) 0%,
+    rgba(239, 92, 174, 1) 63%,
+    rgba(227, 164, 188, 0.5) 100%
   );
 }
 
@@ -39,6 +48,29 @@ body {
     0px 46px 80px rgba(0, 0, 0, 0.02);
 }
 .hero-gradient {
-  background: rgb(219,203,1);
-  background: linear-gradient(214deg, rgba(219,203,1,0.3) 0%, rgba(154,108,22,0.35) 26%, rgba(128,37,65,0.35) 86%, rgba(170,0,105,0.4) 100%);
+  background: rgb(219, 203, 1);
+  background: linear-gradient(
+    230deg,
+    rgba(255, 238, 0, 0.5) 0%,
+    rgba(226, 0, 140, 0.42) 30%,
+    rgba(0, 0, 0, .5) 100%
+  );
+}
+
+.clients-gradient {
+  background: rgb(255, 143, 186);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 143, 186, 1) 0%,
+    rgba(171, 164, 227, 1) 100%
+  );
+}
+
+.footer-gradient {
+  background: rgb(171, 164, 227);
+  background: linear-gradient(
+    180deg,
+    rgba(171, 164, 227, 1) 0%,
+    rgba(96, 83, 204, 0.500437675070028) 100%
+  );
 }

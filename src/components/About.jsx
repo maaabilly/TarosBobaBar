@@ -20,12 +20,8 @@ const About = () => {
           <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold mt-2 mb-4">
             {about.heading}
           </h2>
-          <p className="text-slate-700 max-w-[700px] mb-5">{about.content}</p>
-          <Button
-            style="primary"
-            href="/menu"
-            className="md:hidden w-[150px]"
-          >
+          <h3 className="text-slate-700 max-w-[700px] mb-5">{about.content}</h3>
+          <Button style="primary" href="/menu" className="md:hidden w-[150px]">
             View Menu
           </Button>
         </div>

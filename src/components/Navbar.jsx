@@ -37,7 +37,7 @@ const Navbar = () => {
             <li key={link.id}>
               <a
                 href={link.href}
-                className="text-md hover:text-violet-700  hover:font-bold transition-all flex justify-center"
+                className="text-lg font-medium text-gray-800/90 hover:text-color-brightPink/80 hover:font-bold transition-all flex justify-center"
               >
                 {link.title}
               </a>
@@ -46,7 +46,7 @@ const Navbar = () => {
           <Link
             to="/menu"
             target="_blank"
-            className="text-md hover:text-violet-700  hover:font-bold transition-all flex justify-center"
+            className="text-lg font-medium text-gray-800/90 hover:text-color-brightPink/80 hover:font-bold transition-all flex justify-center"
           >
             Menu
           </Link>
@@ -71,14 +71,14 @@ const Navbar = () => {
               : 'fixed left-0 top-[-100%] ease-in-out duration-500 w-full h-full md:hidden'
           }
         >
-          <NavLogo />
-          <ul className="uppercase p-4 flex flex-col items-center justify-evenly h-[70%]">
+          <NavLogo className={`mt-10`} />
+          <ul className="uppercase p-4 mt-10 flex flex-col items-center justify-evenly h-[80%]">
             {navigation.map((link) => (
               <li key={link.id}>
                 <a
                   href={link.href}
                   onClick={handleClick}
-                  className="p-4 text-[1.5rem] hover:tracking-wider transition-all duration-100"
+                  className="p-4 text-[1.5rem] hover:text-color-brightPink/75 hover:font-bold hover:tracking-wider transition-all duration-100"
                 >
                   {link.title}
                 </a>
@@ -87,7 +87,7 @@ const Navbar = () => {
             <Link
               to="/menu"
               target="_blank"
-              className=" text-[1.5rem] hover:tracking-wider transition-all duration-100 mb-10"
+              className=" text-[1.5rem] hover:text-color-brightPink/75 hover:font-bold hover:tracking-wider transition-all duration-100 mb-10"
             >
               Menu
             </Link>

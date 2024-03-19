@@ -5,10 +5,13 @@ export default {
     extend: {
       colors: {
         color: {
-          pink: '#e3a4bd',
+          pink: '#FFD1E3',
           lightPink: '#eac4d4',
+          hotPink: '#FF8FBA',
+          brightPink: '#ff009d',
           kobicha: '#714b2b',
           ivory: '#FAFCEB',
+          lavender: '#aba4e3',
         },
       },
     },

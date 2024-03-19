@@ -15,6 +15,7 @@ import textLogo from './icons/text-logo.png';
 import borderedLogo from './icons/bordered-logo.png';
 import delivery from './images/delivery.jpg';
 import stand2 from './images/stand2.jpeg';
+import heroBg from './images/hero-bg.jpg';
 
 export {
   bobaIsLife,
@@ -34,4 +35,5 @@ export {
   borderedLogo,
   delivery,
   stand2,
+  heroBg,
 };
