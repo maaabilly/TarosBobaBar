@@ -6,7 +6,7 @@ import { LuCheck, LuBadgeCheck } from 'react-icons/lu';
 
 const Pricing = () => {
   return (
-    <div className="w-full py-[6rem] px-4 bg-gray-100" id="pricing">
+    <div className="w-full py-[6rem] px-4 bg-gray-100" id="services">
       <div className="max-w-[1240px] mx-auto">
         <p className="text-slate-700 text-center uppercase font-bold">
           How may we serve you?

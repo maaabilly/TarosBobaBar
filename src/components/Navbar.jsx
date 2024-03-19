@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="max-w-[1240px] flex justify-between items-center h-20  mx-auto">
         <NavLogo className={`ml-5`} />
         <ul
-          className={`hidden w-[40%] md:grid md:grid-cols-4 gap-8 md:m-0 text-nowrap`}
+          className={`hidden w-[40%] md:grid md:grid-cols-3 gap-8 md:m-0 text-nowrap`}
         >
           {navigation.map((link) => (
             <li key={link.id}>

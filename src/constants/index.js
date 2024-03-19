@@ -11,7 +11,7 @@ import { google, micron, kpmg, sjsu, zip } from '../assets';
 export const navigation = [
   { id: '0', title: 'About', url: '/about', href: '#about' },
   { id: '1', title: 'Services', url: '/services', href: '#services' },
-  { id: '2', title: 'Pricing', url: '/pricing', href: '#pricing' },
+  // { id: '2', title: 'Pricing', url: '/pricing', href: '#pricing' },
   // { id: '3', title: 'Menu', url: '/menu', href: '#menu' },
 ];
 export const hero = {

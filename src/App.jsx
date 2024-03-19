@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import PreviousClients from './components/PreviousClients';
 import Footer from './components/Footer';
-import Services from './components/Services';
+// import Services from './components/Services';
 
 function App() {
   return (
