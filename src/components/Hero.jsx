@@ -6,13 +6,12 @@ import Button from './Button';
 const Hero = () => {
   return (
     <div className="w-full mx-auto" id="hero">
-      <div className="absolute w-full h-screen flex flex-col justify-center items-start z-10 px-10 text-white ">
-        <div className="md:mx-[10%] lg:ml-[15%]">
-          <p className="text-white lg:text-xl text-lg">{hero.subheading}</p>
-          <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:pb-2">
-            {hero.title}
-          </h1>
-          <div className="flex justify-start items-center mb-3">
+      <div className="absolute w-full h-screen z-10 px-10 sm:mt-[10rem] mt-[13rem]">
+        <div className="md:mx-[10%] lg:ml-[15%] text-gray-800">
+          <p className="md:text-3xl sm:text-2xl text-xl  font-medium">
+            {hero.subheading}
+          </p>
+          <div className="flex justify-start items-center my-5">
             <p className={hero.reactTyped.classes}>
               Book us for your <br />
               next{' '}
@@ -26,7 +25,7 @@ const Hero = () => {
               />
             </p>
           </div>
-          <p className="md:text-2xl text-lg mt-4 text-left">
+          <p className="md:text-3xl sm:text-2xl text-xl mt-5 text-left">
             {hero.subheading2}
           </p>
           <Button

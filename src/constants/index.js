@@ -22,7 +22,7 @@ export const hero = {
   reactTyped: {
     static: `Book us for your next `,
     strings: ['Birthday!', 'Wedding!', 'Company Party!', 'Baby Shower!'],
-    classes: 'lg:text-5xl md:text-4xl text-3xl font-bold h-[70px] sm:h-full ',
+    classes: 'lg:text-8xl md:text-6xl sm:text-4xl  text-3xl font-bold h-[70px] sm:h-full ',
   },
 };
 export const about = {
