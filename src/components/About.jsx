@@ -9,7 +9,7 @@ const About = () => {
         <img
           src={groupCheers}
           alt="boba is life"
-          className="rounded-[100%] px-10 mb-10"
+          className="px-10 mb-10 rounded-[20%]"
           width={500}
           height={500}
         />

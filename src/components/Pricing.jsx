@@ -1,8 +1,8 @@
 // import { useState } from 'react';
 import { Tabs, Tab } from './Tabs';
 import Button from './Button';
-import { barista, delivery } from '../assets';
-import { LuCheck, LuBadgeCheck } from 'react-icons/lu';
+import { barista, delivery, stand2 } from '../assets';
+import { LuCheckCircle2 } from 'react-icons/lu';
 
 const Pricing = () => {
   return (
@@ -26,7 +26,8 @@ const Pricing = () => {
                 <img src={barista} alt="barista" className="rounded-3xl" />
               </div>
               <div className="flex justify-start flex-col flex-1 w-full pl-2 md:pl-10">
-                <div className="flex justify-start text-5xl md:text-6xl my-4">
+                <p className="text-2xl mt-2 ">Starting at</p>
+                <div className="flex justify-start text-5xl md:text-6xl mb-4">
                   <span className="mt-2 text-2xl md:text-3xl">$</span>300{' '}
                   <span className="ml-2 self-end text-2xl md:text-3xl">
                     /hour
@@ -34,10 +35,10 @@ const Pricing = () => {
                 </div>
                 <ul className="flex flex-col gap-3 text-[1.2rem] mb-4">
                   <li className="flex items-center gap-5">
-                    <LuBadgeCheck size={25} /> Minimum 4 Hours Service
+                    <LuCheckCircle2 size={25} /> Minimum 4 Hours Service
                   </li>
                 </ul>
-                <p className="">
+                <p className="text-lg">
                   We will have on site baristas making drinks to order! Your
                   guests will enjoy endless possibilities for tea flavor and
                   topping combinations!
@@ -48,36 +49,35 @@ const Pricing = () => {
         </Tab>
         <Tab label="Self Serve Station">
           <div className="py-4">
-            <h2 className="text-lg text-center text-[1.5rem] mb-5">
-              Self Serve Boba Station
+            <h2 className="text-2xl md:text-3xl text-center mb-5">
+              Fully Equipped Self Serve Boba Station
             </h2>
             <div className="flex flex-col md:flex-row items-center mb-8 p-8 rounded-3xl overflow-hidden xl:h-[46rem] bg-violet-200 ring-[3px] ring-violet-400">
-              <div className="flex-1">
-                <img src={barista} alt="barista" className="rounded-3xl" />
+              <div className="flex-1 mb-4 md:mb-0">
+                <img src={stand2} alt="barista" className="rounded-3xl" />
               </div>
               <div className="flex justify-start flex-col flex-1 w-full pl-2 md:pl-10">
-                <h2 className="mt-4 mb-2 text-2xl">Premium On Site Barista</h2>
-                <p className="pb-4">
-                  Includes the Full Service On-Site plus additional features
-                  like a wider selection of flavors and customization options.
-                </p>
-                <ul className="flex flex-col">
+                <p className="text-2xl mt-2 ">Starting at</p>
+                <div className="flex justify-start text-5xl md:text-6xl mb-4">
+                  <span className="mt-2 text-2xl md:text-3xl">$</span>400
+                </div>
+                <ul className="flex flex-col gap-3 text-lg mb-4">
                   <li className="flex items-center gap-5">
-                    <LuCheck /> List item 1
+                    <LuCheckCircle2 size={25} /> Choice of Multiple Flavors
                   </li>
                   <li className="flex items-center gap-5">
-                    <LuCheck /> List item 1
+                    <LuCheckCircle2 size={25} />
+                    Aesthetic Decorations
                   </li>
                   <li className="flex items-center gap-5">
-                    <LuCheck /> List item 1
-                  </li>
-                  <li className="flex items-center gap-5">
-                    <LuCheck /> List item 1
-                  </li>
-                  <li className="flex items-center gap-5">
-                    <LuCheck /> List item 1
+                    <LuCheckCircle2 size={25} />
+                    Set Up and Clean Up
                   </li>
                 </ul>
+                <p className="text-lg">
+                  Your guests will have the freedom to mix and match different
+                  teas and toppings to their liking!
+                </p>
               </div>
             </div>
           </div>
@@ -96,7 +96,8 @@ const Pricing = () => {
                 />
               </div>
               <div className="flex justify-start flex-col flex-1 w-full pl-2 md:pl-10">
-                <div className="flex justify-start text-5xl md:text-6xl my-4">
+                <p className="text-2xl mt-2 ">Starting at</p>
+                <div className="flex justify-start text-5xl md:text-6xl mb-4">
                   <span className="mt-2 text-2xl md:text-3xl">$</span>6{' '}
                   <span className="ml-2 self-end text-2xl md:text-3xl">
                     /drink
@@ -104,20 +105,22 @@ const Pricing = () => {
                 </div>
                 <ul className="flex flex-col gap-3 text-lg mb-4">
                   <li className="flex items-center gap-5">
-                    <LuBadgeCheck size={25} /> Additional 50&cent; for
+                    <LuCheckCircle2 size={25} /> Additional 50&cent; for
                     Toppings
                   </li>
                   <li className="flex items-center gap-5">
-                    <LuBadgeCheck size={25} />30 Drinks Minimum Order
+                    <LuCheckCircle2 size={25} />
+                    30 Drinks Order Minimum
                   </li>
                   <li className="flex items-center gap-5">
-                    <LuBadgeCheck size={25} />Free Delivery for 50+ Drinks
+                    <LuCheckCircle2 size={25} />
+                    Free Delivery for 50+ Drinks
                   </li>
                   <li className="flex items-center gap-5">
-                    <LuBadgeCheck size={25} />$50 Delivery Fee Otherwise
+                    <LuCheckCircle2 size={25} />
+                    $50 Delivery Fee Otherwise
                   </li>
                 </ul>
-    
               </div>
             </div>
           </div>
