@@ -16,8 +16,6 @@ import borderedLogo from './icons/bordered-logo.png';
 import delivery from './images/delivery.jpg';
 import stand2 from './images/stand2.jpeg';
 import heroBg from './images/hero-bg.jpg';
-import bottomWave from './svg/bottomWave.svg'
-import heroWave from './svg/heroWave.svg'
 
 export {
   bobaIsLife,
@@ -38,6 +36,4 @@ export {
   delivery,
   stand2,
   heroBg,
-  bottomWave,
-  heroWave
 };
