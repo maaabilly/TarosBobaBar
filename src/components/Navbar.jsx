@@ -4,7 +4,7 @@ import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 import NavLogo from './NavLogo';
 import { navigation } from '../constants';
 import Button from './Button';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

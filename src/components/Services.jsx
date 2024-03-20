@@ -3,7 +3,7 @@ import { LuCheck } from 'react-icons/lu';
 
 const Services = () => {
   return (
-    <div className="w-full py-[6rem] bg-gray-200" id="services">
+    <div className="w-full py-[6rem]" id="services">
       <div className="max-w-[1240px] mx-auto">
         <div className="mx-10 flex flex-col justify-center">
           <p className="text-slate-700 text-center uppercase font-bold">
