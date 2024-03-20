@@ -7,7 +7,7 @@ import { LuCheckCircle2 } from 'react-icons/lu';
 const Pricing = () => {
   return (
     <div
-      className="relative mx-auto w-full pb-[6rem] md:pb-[7rem] lg:pb-[9rem] px-4 bg-pricing lg:bg-cover bg-contain bg-bottom bg-no-repeat"
+      className="relative mx-auto w-full pb-[6rem] md:pb-[7rem] lg:pb-[9rem] px-4 bg-pricing lg:bg-cover bg-contain bg-bottom bg-no-repeat bottom-[-10px]"
       id="services"
     >
       <div className="max-w-[1240px] mx-auto">

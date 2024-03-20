@@ -6,7 +6,7 @@ import Button from './Button';
 const Hero = () => {
   return (
     <div className=" w-full mx-auto" id="hero">
-      <div className="absolute w-full h-screen z-10 px-10 bg-hero lg:bg-cover bg-contain bg-bottom bg-no-repeat ">
+      <div className="absolute w-full h-screen z-10 px-10 bg-hero lg:bg-cover bg-contain bg-bottom bg-no-repeat bottom-[-5px]">
         <div className="md:mx-[10%] md:mt-[20rem] mt-[15rem] lg:ml-[15%] text-gray-800 ">
           <p className="lg:text-3xl sm:text-2xl text-xl font-medium mb-4 md:ml-[-30px]">
             {hero.subheading2}
