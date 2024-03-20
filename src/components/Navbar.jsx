@@ -91,13 +91,20 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            <Link
+            {/* <Link
               to="/menu"
               target="_blank"
               className=" text-[1.5rem] hover:text-color-brightPink/75 hover:font-bold hover:tracking-wider transition-all duration-100 mb-10"
             >
               Menu
-            </Link>
+            </Link> */}
+            <a
+              href="https://tbbtesting.netlify.app/menu"
+              target="_blank"
+              className=" text-[1.5rem] hover:text-color-brightPink/75 hover:font-bold hover:tracking-wider transition-all duration-100 mb-10"
+            >
+              Menu
+            </a>
             <Button
               style="primary"
               className="w-[150px]"
