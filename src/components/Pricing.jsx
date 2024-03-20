@@ -11,7 +11,7 @@ const Pricing = () => {
         <p className="text-slate-700 text-center uppercase font-bold">
           How can we serve you?
         </p>
-        <h2 className="md:text-4xl sm:text-3xl text-2xl text-center font-bold mt-2 mb-[2.5rem]">
+        <h2 className="playfair md:text-4xl sm:text-3xl text-2xl text-center font-bold mt-2 mb-[2.5rem]">
           Our Services
         </h2>
       </div>

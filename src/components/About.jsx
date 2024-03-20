@@ -19,7 +19,7 @@ const About = () => {
           <p className="text-slate-700 uppercase font-bold">
             {about.subheading}
           </p>
-          <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold mt-2 mb-4">
+          <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold mt-2 mb-4 playfair">
             {about.heading}
           </h2>
           <h3 className="text-slate-700 max-w-[700px] mb-10">
