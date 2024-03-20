@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/menu" element={<Menu />} />
+        <Route path="/#menu" element={<Menu />} />
       </Routes>
     </Router>
   </React.StrictMode>
