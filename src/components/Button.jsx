@@ -1,11 +1,11 @@
 const Button = ({ className, style, children, href }) => {
   const classes =
-    'font-medium py-3 rounded-md text-nowrap transition-all btn-gradient hover:font-semibold hover:tracking-wider';
+    'font-medium py-3 rounded-md text-nowrap transition-all  hover:font-semibold hover:scale-105';
   const renderStyle = (style) => {
     if (style === 'primary') {
-      return 'bg-violet-500 text-white hover:bg-color-brightPink';
+      return 'bg-violet-500 text-white btn-gradient hover:bg-color-brightPink';
     } else {
-      return '';
+      return 'text-color-hotPink bg-transparent border border-solid border-color-brightPink hover:text-color-brightPink';
     }
   };
 

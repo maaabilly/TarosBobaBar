@@ -1,6 +1,5 @@
 import { groupCheers } from '../assets';
 import { about } from '../constants';
-import Button from './Button';
 
 const About = () => {
   return (
@@ -23,10 +22,9 @@ const About = () => {
           <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold mt-2 mb-4">
             {about.heading}
           </h2>
-          <h3 className="text-slate-700 max-w-[700px] mb-10">{about.content}</h3>
-          <Button style="primary" href="/menu" className="md:hidden w-[150px]">
-            View Menu
-          </Button>
+          <h3 className="text-slate-700 max-w-[700px] mb-10">
+            {about.content}
+          </h3>
         </div>
       </div>
     </div>

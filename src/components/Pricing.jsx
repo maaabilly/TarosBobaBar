@@ -20,11 +20,7 @@ const Pricing = () => {
           <div className="py-4">
             <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden neumorphism">
               <div className="flex-1 mb-4 md:mb-0 justify-center flex">
-                <img
-                  src={barista}
-                  alt="barista"
-                  className="rounded-3xl"
-                />
+                <img src={barista} alt="barista" className="rounded-3xl" />
               </div>
 
               <div className="flex justify-start flex-col flex-1 px-10 pl-2 md:pl-10">
@@ -132,7 +128,10 @@ const Pricing = () => {
           </div>
         </Tab>
       </Tabs>
-      <div className="w-full flex justify-center">
+      <div className="w-full flex justify-center gap-10">
+        <Button style="secondary" href="/menu" className="md:w-[180px] w-[150px]">
+          View Menu
+        </Button>
         <Button
           style="primary"
           href="https://tarosbobabar.paperform.co"
