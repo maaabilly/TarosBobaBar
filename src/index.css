@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,11 +16,18 @@ body {
   background-color: #f9f9f9;
 }
 
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.lato {
+  font-family: 'Lato', serif;
+}
+
 .neumorphism {
   border-radius: 50px;
   background: #f9f9f9;
-  box-shadow:  -30px 30px 59px #d6d6d6,
-               30px -30px 59px #ffffff;
+  box-shadow: -30px 30px 59px #d6d6d6, 30px -30px 59px #ffffff;
 }
 
 .btn-gradient {
@@ -54,7 +63,7 @@ body {
     230deg,
     rgba(255, 238, 0, 0.5) 0%,
     rgba(226, 0, 140, 0.42) 30%,
-    rgba(0, 0, 0, .5) 100%
+    rgba(0, 0, 0, 0.5) 100%
   );
 }
 
@@ -74,4 +83,9 @@ body {
     rgba(171, 164, 227, 1) 0%,
     rgba(96, 83, 204, 0.500437675070028) 100%
   );
+}
+
+.menu-gradient {
+  background: rgb(250,144,188);
+  background: linear-gradient(311deg, rgba(250,144,188,1) 0%, rgba(171,164,227,1) 67%, rgba(138,125,249,1) 100%);
 }
