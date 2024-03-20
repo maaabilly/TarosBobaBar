@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="w-full flex flex-col md:flex-row justify-between items-center gap-2 max-w-[1000px] px-10 mx-auto">
         <img src={textLogo} alt="tarosbobabar logo" width={100} />
 
-        <div className="flex flex-col justify-center items-center gap-2 font-semibold tracking-wide mb-5">
+        <div className="flex flex-col justify-center items-center gap-2 font-semibold tracking-wide mb-5 text-lg md:text-base">
           <div className="flex gap-2 ">
             <LuMapPin size={20} />
             San Jose, CA

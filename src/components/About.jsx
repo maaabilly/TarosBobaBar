@@ -3,7 +3,7 @@ import { about } from '../constants';
 
 const About = () => {
   return (
-    <div className="w-full  py-16 px-4" id="about">
+    <div className=" w-full  py-16 px-4" id="about">
       <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row justify-center items-center">
         <div className="flex justify-center px-10">
           <img

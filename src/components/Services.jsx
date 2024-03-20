@@ -1,10 +1,10 @@
-import { barista } from '../assets';
+import { barista, bottomWave } from '../assets';
 import { LuCheck } from 'react-icons/lu';
 
 const Services = () => {
   return (
     <div className="w-full py-[6rem]" id="services">
-      <div className="max-w-[1240px] mx-auto">
+      <div className=" max-w-[1240px] mx-auto z-10">
         <div className="mx-10 flex flex-col justify-center">
           <p className="text-slate-700 text-center uppercase font-bold">
             How may we serve you?
@@ -105,6 +105,11 @@ const Services = () => {
           </div>
         </div>
       </div>
+      <img
+        src={bottomWave}
+        alt="bg"
+        className="w-full h-full object-cover"
+      />
     </div>
   );
 };

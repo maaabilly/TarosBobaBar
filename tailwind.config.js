@@ -14,6 +14,10 @@ export default {
           lavender: '#aba4e3',
         },
       },
+      backgroundImage: {
+        pricing: "url('./assets/svg/bottomWave.svg')",
+        hero: "url('./assets/svg/heroWave.svg')",
+      },
     },
   },
   plugins: [],

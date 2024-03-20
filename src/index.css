@@ -15,7 +15,7 @@ html {
 body {
   /* background-color: #f9f9f9; */
   /* background-color: #fafafa; */
-  background-color: #Fffafc;
+  background-color: #fffafc;
   font-family: 'Lato', serif;
 }
 
@@ -80,21 +80,24 @@ body {
   );
 }
 
+.services-bg {
+  background-image: './assets/svg/bottom-wave.svg';
+}
+
 .clients-gradient {
-  background: rgb(255, 143, 186);
+  background: #ff8fba;
   background: linear-gradient(
     180deg,
     rgba(255, 143, 186, 1) 0%,
-    rgba(171, 164, 227, 1) 100%
+    rgba(186, 112, 195, 1) 100%
   );
 }
 
 .footer-gradient {
-  background: rgb(171, 164, 227);
+  background: rgb(186, 112, 195);
   background: linear-gradient(
     180deg,
-    rgba(171, 164, 227, 1) 0%,
-    rgba(96, 83, 204, 0.500437675070028) 100%
+    rgba(186, 112, 195, 1) 0%,
+    rgba(119, 83, 204, 0.8) 100%
   );
 }
-
