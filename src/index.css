@@ -14,6 +14,7 @@ html {
 
 body {
   background-color: #f9f9f9;
+  font-family: 'Lato', serif;
 }
 
 .playfair {
@@ -27,11 +28,8 @@ body {
 .neumorphism {
   border-radius: 50px;
   background: #f9f9f9;
-  box-shadow:  14px 14px 28px #c5c5c5,
-               -14px -14px 28px #ffffff;
+  box-shadow: 14px 14px 28px #c5c5c5, -14px -14px 28px #ffffff;
 }
-
-
 
 .btn-gradient {
   background: rgb(255, 0, 157);

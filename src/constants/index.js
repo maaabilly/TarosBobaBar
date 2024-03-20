@@ -23,7 +23,7 @@ export const hero = {
   reactTyped: {
     strings: ['Birthday!', 'Wedding!', 'Company Party!', 'Baby Shower!'],
     classes:
-      'lg:text-7xl sm:text-5xl  text-[2rem] leading-10 font-bold h-[70px] sm:h-full ',
+      'lg:text-7xl sm:text-5xl  text-[2rem] leading-10 font-bold h-[70px] sm:h-full playfair',
   },
 };
 export const about = {
