@@ -6,8 +6,8 @@ import { LuCheckCircle2 } from 'react-icons/lu';
 
 const Pricing = () => {
   return (
-    <div className="w-full py-[6rem] px-4 " id="services">
-      <div className="max-w-[1240px] mx-auto">
+    <div className="mx-auto max-w-[1240px] py-[6rem] px-4 " id="services">
+      <div className=" mx-auto">
         <p className="text-slate-700 text-center uppercase font-bold">
           How can we serve you?
         </p>
@@ -18,13 +18,17 @@ const Pricing = () => {
       <Tabs>
         <Tab label="On Site Barista">
           <div className="py-4">
-            <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden xl:h-[46rem] neumorphism">
-              <div className="flex-1 mb-4 md:mb-0">
-                <img src={barista} alt="barista" className="rounded-3xl" />
+            <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden neumorphism">
+              <div className="flex-1 mb-4 md:mb-0 justify-center flex">
+                <img
+                  src={barista}
+                  alt="barista"
+                  className="rounded-3xl"
+                />
               </div>
 
-              <div className="flex justify-start flex-col flex-1 w-full pl-2 md:pl-10">
-                <h4 className="hidden lg:block text-2xl md:text-3xl font-medium mb-5">
+              <div className="flex justify-start flex-col flex-1 px-10 pl-2 md:pl-10">
+                <h4 className="hidden lg:block text-2xl md:text-3xl font-medium mb-2">
                   Premium On Site Barista
                 </h4>
                 <p className="text-2xl mt-2 ">Starting at</p>
@@ -50,14 +54,14 @@ const Pricing = () => {
         </Tab>
         <Tab label="Self Serve Station">
           <div className="py-4">
-            <h4 className="hidden md:block text-2xl md:text-3xl text-center mb-5">
-              Fully Equipped Self Serve Boba Station
-            </h4>
-            <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden xl:h-[46rem] neumorphism">
+            <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden neumorphism">
               <div className="flex-1 mb-4 md:mb-0">
                 <img src={stand2} alt="barista" className="rounded-3xl" />
               </div>
               <div className="flex justify-start flex-col flex-1 w-full pl-2 md:pl-10">
+                <h4 className="hidden lg:block text-2xl md:text-3xl font-medium mb-2">
+                  Fully Equipped Self Serve Boba Station
+                </h4>
                 <p className="text-2xl mt-2 ">Starting at</p>
                 <div className="flex justify-start text-5xl md:text-6xl mb-4">
                   <span className="mt-2 text-2xl md:text-3xl">$</span>400
@@ -85,10 +89,7 @@ const Pricing = () => {
         </Tab>
         <Tab label="Delivery Drop Off">
           <div className="py-4">
-            <h4 className="hidden md:block text-2xl md:text-3xl text-center mb-5">
-              Pre-packaged Boba Delivery
-            </h4>
-            <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden xl:h-[46rem] neumorphism">
+            <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden neumorphism">
               <div className="flex-1 mb-4 md:mb-0">
                 <img
                   src={delivery}
@@ -97,6 +98,10 @@ const Pricing = () => {
                 />
               </div>
               <div className="flex justify-start flex-col flex-1 w-full pl-2 md:pl-10">
+                {' '}
+                <h4 className="hidden lg:block text-2xl md:text-3xl font-medium mb-2">
+                  Pre-packaged Boba Delivery
+                </h4>
                 <p className="text-2xl mt-2 ">Starting at</p>
                 <div className="flex justify-start text-5xl md:text-6xl mb-4">
                   <span className="mt-2 text-2xl md:text-3xl">$</span>6{' '}
