@@ -4,10 +4,11 @@ import { FaYelp } from 'react-icons/fa';
 import { textLogo } from '../assets';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="w-full flex flex-col mx-auto py-8 px-4 text-gray-700/90 footer-gradient">
       <div className="w-full flex justify-between items-center gap-2 max-w-[1000px] px-10 mx-auto">
-        <img src={textLogo} alt="tarosbobabar logo" width={100}/>
+        <img src={textLogo} alt="tarosbobabar logo" width={100} />
         <div className="flex gap-6">
           <a
             href="https://www.instagram.com/tarosbobabar/"
@@ -25,7 +26,9 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p className='mx-auto mt-4'>Copyright &copy; 2024 TarosBobaBar. All rights reserved.</p>
+      <p className="mx-auto mt-4">
+        Copyright &copy; {currentYear} TarosBobaBar. All rights reserved.
+      </p>
     </div>
   );
 };
