@@ -13,9 +13,6 @@ export default {
           ivory: '#FAFCEB',
           lavender: '#aba4e3',
         },
-        backgroundImage: {
-          'linear-gradient': 'linear-gradient(58deg,#ff009d,#aba4e3)',
-        },
       },
     },
   },

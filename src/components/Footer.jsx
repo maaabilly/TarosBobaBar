@@ -5,27 +5,27 @@ import { textLogo } from '../assets';
 
 const Footer = () => {
   return (
-    <div className="w-full mx-auto py-16 px-4 text-gray-700/90 footer-gradient">
-      <div className="flex flex-col items-center justify-between gap-10 md:flex-row max-w-[1000px] mx-auto">
-        <img src={textLogo} alt="tarosbobabar logo" width={100} height={100} />
-        <div className="flex w-full justify-evenly">
+    <div className="w-full flex flex-col mx-auto py-8 px-4 text-gray-700/90 footer-gradient">
+      <div className="w-full flex justify-between items-center gap-2 max-w-[1000px] px-10 mx-auto">
+        <img src={textLogo} alt="tarosbobabar logo" width={100}/>
+        <div className="flex gap-6">
           <a
             href="https://www.instagram.com/tarosbobabar/"
             target="_blank"
-            className="cursor-pointer"
+            className="cursor-pointer transition-all  hover:text-color-brightPink/60 hover:scale-125"
           >
-            <LuInstagram size={30} />
+            <LuInstagram size={40} />
           </a>
           <a
             href="https://www.yelp.com/biz/taro-s-mobile-boba-bar-san-jose"
             target="_blank"
-            className="cursor-pointer"
+            className="cursor-pointer transition-all  hover:text-color-brightPink/60 hover:scale-125"
           >
-            <FaYelp size={30} />
+            <FaYelp size={40} />
           </a>
         </div>
-        <p>Copyright &copy; 2024 TarosBobaBar. All rights reserved.</p>
       </div>
+      <p className='mx-auto mt-4'>Copyright &copy; 2024 TarosBobaBar. All rights reserved.</p>
     </div>
   );
 };

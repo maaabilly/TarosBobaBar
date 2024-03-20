@@ -27,8 +27,11 @@ body {
 .neumorphism {
   border-radius: 50px;
   background: #f9f9f9;
-  box-shadow: -30px 30px 59px #d6d6d6, 30px -30px 59px #ffffff;
+  box-shadow:  14px 14px 28px #c5c5c5,
+               -14px -14px 28px #ffffff;
 }
+
+
 
 .btn-gradient {
   background: rgb(255, 0, 157);
@@ -86,6 +89,11 @@ body {
 }
 
 .menu-gradient {
-  background: rgb(250,144,188);
-  background: linear-gradient(311deg, rgba(250,144,188,1) 0%, rgba(171,164,227,1) 67%, rgba(138,125,249,1) 100%);
+  background: rgb(250, 144, 188);
+  background: linear-gradient(
+    311deg,
+    rgba(250, 144, 188, 1) 0%,
+    rgba(171, 164, 227, 1) 67%,
+    rgba(138, 125, 249, 1) 100%
+  );
 }

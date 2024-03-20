@@ -39,7 +39,7 @@ const Hero = () => {
 
       <img
         src={heroBg}
-        alt="Boba is lLife"
+        alt="hero image"
         className="w-full h-dvh object-cover mt-[-80px]"
       />
     </div>
