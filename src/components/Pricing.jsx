@@ -39,7 +39,7 @@ const Pricing = () => {
                     <LuCheckCircle2 size={25} /> Minimum 4 Hours Service
                   </li>
                 </ul>
-                <p className="text-lg">
+                <p className="text-lg md:text-xl">
                   We will have on site baristas making drinks to order! Your
                   guests will enjoy endless possibilities for tea flavor and
                   topping combinations!
@@ -75,7 +75,7 @@ const Pricing = () => {
                     Set Up and Clean Up
                   </li>
                 </ul>
-                <p className="text-lg">
+                <p className="text-lg md:text-xl">
                   Your guests will have the freedom to mix and match different
                   teas and toppings to their liking!
                 </p>

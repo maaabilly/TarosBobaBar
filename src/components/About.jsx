@@ -22,7 +22,7 @@ const About = () => {
           <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold mt-2 mb-4 playfair">
             {about.heading}
           </h2>
-          <h3 className="text-slate-700 max-w-[700px] mb-10">
+          <h3 className="text-slate-700 max-w-[700px] mb-10 text-lg md:text-xl">
             {about.content}
           </h3>
         </div>

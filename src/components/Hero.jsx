@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="w-full mx-auto" id="hero">
       <div className="absolute w-full h-[90%] z-10 px-10 mt-[15rem]">
         <div className="md:mx-[10%] md:mt-[5rem] mt-[3rem] lg:ml-[15%] text-gray-800 ">
-          <p className="lg:text-3xl sm:text-2xl text-xl  font-medium mb-4 md:ml-[-30px]">
+          <p className="lg:text-3xl sm:text-2xl text-xl font-medium mb-4 md:ml-[-30px]">
             {hero.subheading2}
           </p>
           <div className="flex justify-start items-center">

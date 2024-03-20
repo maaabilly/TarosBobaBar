@@ -31,7 +31,7 @@ export const about = {
   heading: 'Learn more about us!',
   subheading: 'Who we are',
   content:
-    "Taro's Boba Bar offer boba catering services that covers the entire Bay Area! At Taro's Mobile Boba Bar, we offer various flavors of teas and milk teas along with everything you need to impress your friends. Let us help you bring the par-TEA to your next event!",
+    "Taro's Boba Bar offer boba catering services that covers the entire Bay Area! At Taro's Mobile Boba Bar, we offer various milk teas and fruit teas along with everything you need to impress your friends, coworkers, or boss! Let us help you bring the par-TEA to your next event!",
   img: groupCheers,
 };
 
