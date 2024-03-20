@@ -40,7 +40,7 @@ const Hero = () => {
       <img
         src={heroBg}
         alt="hero image"
-        className="w-full h-dvh object-cover mt-[-80px]"
+        className="w-full h-screen object-cover mt-[-80px]"
       />
     </div>
   );
