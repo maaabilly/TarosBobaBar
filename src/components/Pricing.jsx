@@ -9,7 +9,7 @@ const Pricing = () => {
     <div className="mx-auto max-w-[1240px] py-[6rem] px-4 " id="services">
       <div className=" mx-auto">
         <p className="text-slate-700 text-center uppercase font-bold">
-          How can we serve you?
+          How may we serve you?
         </p>
         <h2 className="playfair md:text-4xl sm:text-3xl text-2xl text-center font-bold mt-2 mb-[2.5rem]">
           Our Services
