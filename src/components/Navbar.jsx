@@ -43,13 +43,20 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <Link
+          {/* <Link
             to="/menu"
             target="_blank"
             className="text-lg font-medium text-gray-800/90 hover:text-color-brightPink/80 hover:font-bold transition-all flex justify-center"
           >
             Menu
-          </Link>
+          </Link> */}
+          <a
+            href="https://tbbtesting.netlify.app/menu"
+            target="_blank"
+            className="text-lg font-medium text-gray-800/90 hover:text-color-brightPink/80 hover:font-bold transition-all flex justify-center"
+          >
+            Menu
+          </a>
         </ul>
         <Button
           style="primary"
