@@ -67,15 +67,15 @@ const Navbar = () => {
         </Button>
         <div
           onClick={toggleNav}
-          className="block md:hidden z-10 fixed top-5 right-5 cursor-pointer"
+          className="block md:hidden z-10 fixed top-5 right-5 cursor-pointer landscape:hidden"
         >
           {nav ? <LuX size={35} /> : <LuMenu size={35} />}
         </div>
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 w-full h-full border-r border-r-gray-900 bg-gray-100 ease-in-out duration-500 md:hidden'
-              : 'fixed left-0 top-[-100%] ease-in-out duration-500 w-full h-full md:hidden'
+              ? 'fixed left-0 top-0 w-full h-full border-r border-r-gray-900 bg-gray-100 ease-in-out duration-500 md:hidden landscape:hidden'
+              : 'fixed left-0 top-[-100%] landscape:hidden ease-in-out duration-500 w-full h-full md:hidden'
           }
         >
           <NavLogo className={`mt-10`} />

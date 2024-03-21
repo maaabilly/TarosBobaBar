@@ -1,4 +1,3 @@
-
 import { cateredCompanies } from '../constants';
 
 const PreviousClients = () => {
