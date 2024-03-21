@@ -6,8 +6,8 @@ import Button from './Button';
 const Hero = () => {
   return (
     <div className=" w-full mx-auto" id="hero">
-      <div className="absolute w-full h-screen landscape:h-[700px] z-10 px-10 bg-hero lg:bg-cover bg-cover bg-bottom bg-no-repeat">
-        <div className="md:mx-[10%] mt-[10rem] md:mt-[rem] lg:ml-[15%] text-gray-800 ">
+      <div className="absolute w-full h-screen landscape:h-[900px] z-10 px-8 bg-hero lg:bg-cover bg-cover bg-bottom bg-no-repeat">
+        <div className="md:mx-[10%] mt-[10rem] landscape:mt-[18rem] md:mt-[16rem] lg:ml-[15%] text-gray-800 ">
           <p className="text-2xl tracking-wide font-semibold md:ml-[-30px] mb-[1rem]">
             {hero.subheading2}
           </p>
@@ -38,7 +38,7 @@ const Hero = () => {
       <img
         src={heroBg2}
         alt="hero image"
-        className=" w-full h-screen landscape:h-[690px] object-cover 2xl:object-contain mt-[-70px]"
+        className=" w-full h-screen landscape:h-[890px] object-cover 2xl:object-contain mt-[-70px]"
       />
     </div>
   );
