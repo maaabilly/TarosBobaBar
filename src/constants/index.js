@@ -21,9 +21,9 @@ export const hero = {
   subheading: 'Make your next event a Par-Tea!',
   subheading2: 'Your one stop shop for boba catering in the Bar Area!',
   reactTyped: {
-    strings: ['Birthday!', 'Wedding!', 'Company Party!', 'Baby Shower!'],
+    strings: ['Birthdays!', 'Weddings!', 'Company Parties!', 'Baby Showers!'],
     classes:
-      'lg:text-7xl sm:text-5xl  text-[2rem] leading-10 font-bold h-[70px] sm:h-full playfair',
+      'lg:text-9xl sm:text-5xl text-[2.8rem] leading-[3rem] font-bold h-[70px] sm:h-full playfair',
   },
 };
 export const about = {

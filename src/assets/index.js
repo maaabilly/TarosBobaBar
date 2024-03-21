@@ -17,6 +17,7 @@ import delivery from './images/delivery.jpg';
 import stand2 from './images/stand2.jpeg';
 import heroBg from './images/hero-bg.jpg';
 import heroBg2 from './images/hero-bg2.jpg';
+import bobaStraw from './images/boba-straw.jpg';
 
 export {
   bobaIsLife,
@@ -38,4 +39,5 @@ export {
   stand2,
   heroBg,
   heroBg2,
+  bobaStraw,
 };

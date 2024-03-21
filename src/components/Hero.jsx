@@ -7,14 +7,13 @@ const Hero = () => {
   return (
     <div className=" w-full mx-auto" id="hero">
       <div className="absolute w-full h-screen z-10 px-10 bg-hero lg:bg-cover bg-cover bg-bottom bg-no-repeat">
-        <div className="md:mx-[10%] mt-[15rem] lg:ml-[15%] text-gray-800 ">
-          <p className="lg:text-3xl sm:text-2xl text-xl font-medium mb-4 md:ml-[-30px]">
+        <div className="md:mx-[10%] mt-[14rem] lg:ml-[15%] text-gray-800 ">
+          <p className=" text-2xl tracking-wide font-semibold md:ml-[-30px] mb-[1rem]">
             {hero.subheading2}
           </p>
-          <div className="flex justify-start items-center">
+          <div className="flex justify-start items-start h-[150px]">
             <h1 className={hero.reactTyped.classes}>
-              Book us for your <br />
-              next{' '}
+              Book us for <br className="block md:hidden" />
               <ReactTyped
                 className={hero.reactTyped.classes}
                 strings={hero.reactTyped.strings}
@@ -25,11 +24,11 @@ const Hero = () => {
               />
             </h1>
           </div>
-          <div className="sm:mt-14 mt-16 ">
+          <div className="mt-[5rem] sm:mt-0 flex justify-center sm:justify-start">
             <Button
               style="primary"
               href="https://tarosbobabar.paperform.co"
-              className="md:hidden md:w-[180px] w-[150px] "
+              className="md:hidden  w-[200px] h-[55px] text-xl"
             >
               Book Now
             </Button>
