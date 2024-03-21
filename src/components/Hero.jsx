@@ -1,13 +1,13 @@
 import { ReactTyped } from 'react-typed';
 import { hero } from '../constants';
-import { heroBg } from '../assets';
+import { heroBg2 } from '../assets';
 import Button from './Button';
 
 const Hero = () => {
   return (
     <div className=" w-full mx-auto" id="hero">
-      <div className="absolute w-full h-screen z-10 px-10 bg-hero lg:bg-cover bg-contain bg-bottom bg-no-repeat bottom-[-5px]">
-        <div className="md:mx-[10%] md:mt-[20rem] mt-[15rem] lg:ml-[15%] text-gray-800 ">
+      <div className="absolute w-full h-screen z-10 px-10 bg-hero lg:bg-cover bg-cover bg-bottom bg-no-repeat">
+        <div className="md:mx-[10%] mt-[15rem] lg:ml-[15%] text-gray-800 ">
           <p className="lg:text-3xl sm:text-2xl text-xl font-medium mb-4 md:ml-[-30px]">
             {hero.subheading2}
           </p>
@@ -37,9 +37,9 @@ const Hero = () => {
         </div>
       </div>
       <img
-        src={heroBg}
+        src={heroBg2}
         alt="hero image"
-        className=" w-full h-screen object-cover mt-[-80px]"
+        className=" w-full h-screen object-cover mt-[-70px]"
       />
     </div>
   );
