@@ -38,7 +38,7 @@ const Hero = () => {
       <img
         src={heroBg2}
         alt="hero image"
-        className=" w-full h-screen landscape:h-[890px] object-cover 2xl:object-contain mt-[-70px]"
+        className=" w-full h-screen  landscape:h-[890px] object-cover 2xl:object-contain mt-[-70px]"
       />
     </div>
   );
