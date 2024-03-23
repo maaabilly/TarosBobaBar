@@ -6,9 +6,9 @@ import Button from './Button';
 const Hero = () => {
   return (
     <div className=" w-full mx-auto" id="hero">
-      <div className="absolute w-full h-screen landscape:h-[900px] z-10 px-8 bg-hero lg:bg-cover bg-cover bg-bottom bg-no-repeat">
-        <div className="md:mx-[10%] mt-[10rem] landscape:mt-[18rem] md:mt-[16rem] lg:ml-[15%] text-gray-800 ">
-          <p className="text-2xl tracking-wide font-semibold md:ml-[-30px] mb-[1rem]">
+      <div className="absolute w-full h-screen md:h-[80vh] z-10 px-8 bg-hero lg:bg-cover bg-cover bg-bottom bg-no-repeat ">
+        <div className=" text-gray-800 md:mx-[10%] mt-[60%] sm:mt-[35%] md:mt-[25%] lg:mt-[20%] xl:ml-[10%]">
+          <p className="text-2xl tracking-wide font-semibold md:ml-[-30px] mb-[2rem]">
             {hero.subheading2}
           </p>
           <div className="flex justify-start items-start h-[150px]">
@@ -24,7 +24,7 @@ const Hero = () => {
               />
             </h1>
           </div>
-          <div className="mt-[5rem] sm:mt-0 flex justify-center sm:justify-start">
+          <div className="mt-[3rem] sm:mt-0 flex justify-center sm:justify-start">
             <Button
               style="primary"
               href="https://tarosbobabar.paperform.co"
@@ -38,7 +38,7 @@ const Hero = () => {
       <img
         src={heroBg2}
         alt="Boba Milk Tea Display"
-        className=" w-full h-screen  landscape:h-[890px] object-cover 2xl:object-contain mt-[-70px]"
+        className=" w-full h-screen md:h-[75vh] object-cover mt-[-70px]"
       />
     </div>
   );
