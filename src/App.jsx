@@ -3,8 +3,8 @@ import Pricing from './components/Pricing';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import PreviousClients from './components/PreviousClients';
+import PhotoCarousel from './components/PhotoCarousel';
 import Footer from './components/Footer';
-// import Services from './components/Services';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       {/* <Services /> */}
       <Pricing />
       <PreviousClients />
+      <PhotoCarousel />
       <Footer />
     </div>
   );

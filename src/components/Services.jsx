@@ -1,4 +1,4 @@
-import { barista, bottomWave } from '../assets';
+import { barista, bottomWave } from '..';
 import { LuCheck } from 'react-icons/lu';
 
 const Services = () => {

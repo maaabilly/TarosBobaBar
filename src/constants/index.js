@@ -3,8 +3,13 @@ import {
   groupCheers,
   group,
   bobaPackaged,
-  standSetup,
   barista,
+  stand1,
+  stand2,
+  stand3,
+  stand4,
+  stand5,
+  stand6,
 } from '../assets';
 import { google, micron, kpmg, sjsu, zip } from '../assets';
 
@@ -53,6 +58,15 @@ export const cateredCompanies = [
   { id: '4', title: 'KPMG', logo: kpmg },
 ];
 
+export const carouselPhotos = [
+  { id: '0', alt: '', src: stand1 },
+  { id: '1', alt: '', src: stand2 },
+  { id: '2', alt: '', src: stand3 },
+  { id: '3', alt: '', src: stand4 },
+  { id: '4', alt: '', src: stand5 },
+  { id: '5', alt: '', src: stand6 },
+];
+
 export const services = [
   {
     id: 'service-1',
@@ -75,7 +89,7 @@ export const services = [
     pricing: 'Coming Soon!',
     detail:
       'Includes the Full Service On-Site plus additional features like a wider selection of flavors and customization options.',
-    img: standSetup,
+    img: stand1,
   },
 ];
 
@@ -157,7 +171,7 @@ export const onSiteService = [
       '$300 per hour',
     ],
     noHiddenFees: 'No Hidden Fees or Extra Costs',
-    img: standSetup,
+    img: stand1,
   },
 ];
 
