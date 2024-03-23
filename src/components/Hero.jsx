@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
       <img
         src={heroBg2}
-        alt="hero image"
+        alt="Boba Milk Tea Display"
         className=" w-full h-screen  landscape:h-[890px] object-cover 2xl:object-contain mt-[-70px]"
       />
     </div>

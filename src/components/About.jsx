@@ -11,7 +11,7 @@ const About = () => {
         <div className="flex justify-center px-10">
           <img
             src={groupCheers}
-            alt="boba is life"
+            alt="Boba catering private event"
             className="neumorphism mx-20 my-10 rounded-[20%]"
             width={500}
             height={500}

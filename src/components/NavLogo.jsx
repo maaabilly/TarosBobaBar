@@ -5,7 +5,7 @@ const NavLogo = ({ className }) => {
       <a href="#home">
         <img
           src={textLogo}
-          alt="TarosBobaBar Logo"
+          alt="TarosBobaBar - Bay Area boba catering for corporate and private events"
           width={100}
           height={100}
           className="rounded-[100%]"

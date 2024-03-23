@@ -37,6 +37,7 @@ const Navbar = () => {
             <li key={link.id}>
               <a
                 href={link.href}
+                title={link.title}
                 className="text-lg font-medium text-gray-800/90 hover:text-color-brightPink/80 hover:font-bold transition-all flex justify-center"
               >
                 {link.title}
@@ -53,6 +54,7 @@ const Navbar = () => {
           <a
             href="https://tbbtesting.netlify.app/menu"
             target="_blank"
+            title="Menu"
             className="text-lg font-medium text-gray-800/90 hover:text-color-brightPink/80 hover:font-bold transition-all flex justify-center"
           >
             Menu
@@ -85,6 +87,7 @@ const Navbar = () => {
                 <a
                   href={link.href}
                   onClick={handleClick}
+                  title={link.title}
                   className="p-4 text-[1.5rem] hover:text-color-brightPink/75 hover:font-bold hover:tracking-wider transition-all duration-100"
                 >
                   {link.title}
@@ -101,6 +104,7 @@ const Navbar = () => {
             <a
               href="https://tbbtesting.netlify.app/menu"
               target="_blank"
+              title="Menu"
               className=" text-[1.5rem] hover:text-color-brightPink/75 hover:font-bold hover:tracking-wider transition-all duration-100 mb-10"
             >
               Menu

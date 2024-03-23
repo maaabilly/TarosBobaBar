@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="w-full flex flex-col mx-auto py-8 px-4 text-gray-800/85 footer-gradient">
       <div className="w-full flex flex-col md:flex-row justify-between items-center gap-2 max-w-[1000px] px-10 mx-auto">
-        <img src={textLogo} alt="tarosbobabar logo" width={100} />
+        <img src={textLogo} alt="tarosbobabar - bay area boba catering for corporate and private events" width={100} />
 
         <div className="flex flex-col justify-center items-center gap-2 font-semibold tracking-wide mb-5 text-lg md:text-base">
           <div className="flex gap-2 ">

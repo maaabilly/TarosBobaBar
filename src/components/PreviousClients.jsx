@@ -13,7 +13,7 @@ const PreviousClients = () => {
           <div className="flex flex-wrap justify-evenly w-full items-center py-2">
             {cateredCompanies.map((company) => (
               <div key={company.id} className='px-2 md:px-10'>
-                <img src={company.logo} alt="" width={100} height={100} />
+                <img src={company.logo} alt={company.title} width={100} height={100} />
               </div>
             ))}
           </div>

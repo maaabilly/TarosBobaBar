@@ -24,7 +24,11 @@ const Pricing = () => {
             <div className="py-4">
               <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden neumorphism">
                 <div className="flex-1 mb-4 md:mb-0 justify-center flex">
-                  <img src={barista} alt="barista" className="rounded-3xl" />
+                  <img
+                    src={barista}
+                    alt="boba milk tea catering barista"
+                    className="rounded-3xl"
+                  />
                 </div>
 
                 <div className="flex justify-start flex-col flex-1 px-10 pl-2 md:pl-10">
@@ -56,7 +60,11 @@ const Pricing = () => {
             <div className="py-4">
               <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden neumorphism">
                 <div className="flex-1 mb-4 md:mb-0">
-                  <img src={stand2} alt="barista" className="rounded-3xl" />
+                  <img
+                    src={stand2}
+                    alt="boba catering private event table station set up"
+                    className="rounded-3xl"
+                  />
                 </div>
                 <div className="flex justify-start flex-col flex-1 w-full pl-2 md:pl-10">
                   <h4 className="hidden lg:block text-2xl md:text-3xl font-medium mb-2">
@@ -93,7 +101,7 @@ const Pricing = () => {
                 <div className="flex-1 mb-4 md:mb-0">
                   <img
                     src={delivery}
-                    alt="barista"
+                    alt="boba catering delivery driver"
                     className="rounded-3xl aspect-square"
                   />
                 </div>
