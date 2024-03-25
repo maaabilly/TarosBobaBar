@@ -1,7 +1,7 @@
 // import { useState } from 'react';
 import { Tabs, Tab } from './Tabs';
 import Button from './Button';
-import { barista, delivery, stand2 } from '../assets';
+import { barista, delivery, stand5 } from '../assets';
 import { LuCheckCircle2 } from 'react-icons/lu';
 
 const Pricing = () => {
@@ -61,7 +61,7 @@ const Pricing = () => {
               <div className="flex flex-col md:flex-row items-center mb-8 p-8 overflow-hidden neumorphism">
                 <div className="flex-1 mb-4 md:mb-0">
                   <img
-                    src={stand2}
+                    src={stand5}
                     alt="boba catering private event table station set up"
                     className="rounded-3xl"
                   />

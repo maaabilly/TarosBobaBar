@@ -10,6 +10,7 @@ import {
   stand4,
   stand5,
   stand6,
+  stand7,
 } from '../assets';
 import { google, micron, kpmg, sjsu, zip } from '../assets';
 
@@ -65,6 +66,8 @@ export const carouselPhotos = [
   { id: '3', alt: '', src: stand4 },
   { id: '4', alt: '', src: stand5 },
   { id: '5', alt: '', src: stand6 },
+  { id: '7', alt: '', src: stand7 },
+
 ];
 
 export const services = [
