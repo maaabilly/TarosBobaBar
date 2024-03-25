@@ -16,8 +16,8 @@ const PhotoCarousel = () => {
         pagination-clickable="true"
         space-between="0"
         centered-slides="true"
-        speed="10000"
-        autoplay-delay="0"
+        speed="8000"
+        autoplay-delay="500"
         autoplay-disable-on-interaction="false"
       >
         {carouselPhotos.map((photo) => (
