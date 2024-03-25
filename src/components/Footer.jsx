@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="w-full flex flex-col mx-auto py-8 px-4 text-gray-800/85 footer-gradient">
       <div className="w-full flex flex-col md:flex-row justify-between items-center gap-2 max-w-[1000px] px-10 mx-auto">
-        <img src={textLogo} alt="tarosbobabar - bay area boba catering for corporate and private events" width={100} />
+        <img src={textLogo} alt="tarosbobabar - bay area boba catering for corporate and private events" width={130} className='rounded-full p-3 ring-color-pink ring-4 my-4'/>
 
         <div className="flex flex-col justify-center items-center gap-2 font-semibold tracking-wide mb-5 text-lg md:text-base">
           <div className="flex gap-2 ">
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex gap-20 md:gap-5">
+        <div className="flex gap-20 md:gap-12">
           <a
             href="https://www.instagram.com/tarosbobabar/"
             target="_blank"
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="mx-auto mt-8 md:mt-4 text-gray-600">
+      <p className="mx-auto mt-8 md:mt-4 text-gray-700">
         Copyright &copy; {currentYear} TarosBobaBar. All rights reserved.
       </p>
     </div>
