@@ -25,7 +25,7 @@ export const hero = {
   heading: `Make your next event packed with flavor and fun by catering with`,
   brandName: 'tarosbobabar',
   subheading: 'Make your next event a Par-Tea!',
-  subheading2: 'Your one stop shop for boba catering in the Bar Area!',
+  subheading2: 'Your one stop shop for boba catering in the Bay Area!',
   reactTyped: {
     strings: ['Birthdays!', 'Weddings!', 'Company Parties!', 'Baby Showers!'],
     classes:
