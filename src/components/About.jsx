@@ -1,4 +1,4 @@
-import { cupWithLogo, groupCheers } from '../assets';
+import { cupWithLogo } from '../assets';
 import { about } from '../constants';
 
 const About = () => {
