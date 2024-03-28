@@ -1,4 +1,4 @@
-import { groupCheers } from '../assets';
+import { cupWithLogo, groupCheers } from '../assets';
 import { about } from '../constants';
 
 const About = () => {
@@ -8,11 +8,11 @@ const About = () => {
       id="about"
     >
       <div className="max-w-[1240px] mx-auto px-4 flex flex-col lg:flex-row justify-center items-center">
-        <div className="flex justify-center px-10">
+        <div className="flex justify-center px-10 overflow-hidden">
           <img
-            src={groupCheers}
+            src={cupWithLogo}
             alt="Boba catering private event"
-            className="neumorphism mx-20 my-10 rounded-[20%]"
+            className="neumorphism mx-20 my-10 rounded-[20%] object-cover w-[400px] h-[400px] md:w-[500px] md:h-[500px] "
             width={500}
             height={500}
           />

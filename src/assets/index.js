@@ -22,6 +22,7 @@ import stand4 from './images/stand4.jpeg';
 import stand5 from './images/stand5.jpeg';
 import stand6 from './images/stand6.jpeg';
 import stand7 from './images/stand7.jpeg';
+import cupWithLogo from './images/cup-with-logo.jpeg'
 
 export {
   bobaIsLife,
@@ -48,4 +49,5 @@ export {
   stand5,
   stand6,
   stand7,
+  cupWithLogo
 };
