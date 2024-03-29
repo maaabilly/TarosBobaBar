@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { LuMenu, LuX } from 'react-icons/lu';
+import { Link } from 'react-router-dom';
 import { disablePageScroll, enablePageScroll } from 'scroll-lock';
 import NavLogo from './NavLogo';
 import { navigation } from '../constants';
@@ -44,21 +45,21 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          {/* <Link
+          <Link
             to="/menu"
             target="_blank"
             className="text-lg font-medium text-gray-800/90 hover:text-color-brightPink/80 hover:font-bold transition-all flex justify-center"
           >
             Menu
-          </Link> */}
-          <a
+          </Link>
+          {/* <a
             href="https://tbbtesting.netlify.app/menu"
             target="_blank"
             title="Menu"
             className="text-lg font-medium text-gray-800/90 hover:text-color-brightPink/80 hover:font-bold transition-all flex justify-center"
           >
             Menu
-          </a>
+          </a> */}
         </ul>
         <Button
           style="primary"
@@ -94,21 +95,21 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            {/* <Link
+            <Link
               to="/menu"
               target="_blank"
               className=" text-[1.5rem] hover:text-color-brightPink/75 hover:font-bold hover:tracking-wider transition-all duration-100 mb-10"
             >
               Menu
-            </Link> */}
-            <a
+            </Link>
+            {/* <a
               href="https://tbbtesting.netlify.app/menu"
               target="_blank"
               title="Menu"
               className=" text-[1.5rem] hover:text-color-brightPink/75 hover:font-bold hover:tracking-wider transition-all duration-100 mb-10"
             >
               Menu
-            </a>
+            </a> */}
             <Button
               style="primary"
               className="w-[150px]"
