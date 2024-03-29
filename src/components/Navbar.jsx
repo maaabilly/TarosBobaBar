@@ -52,7 +52,7 @@ const Navbar = () => {
             Menu
           </Link> */}
           <a
-            href="https://tbbtesting.netlify.app/menu"
+            href="https://tarosbobabar.netlify.app/menu"
             target="_blank"
             title="Menu"
             className="text-lg font-medium text-gray-800/90 hover:text-color-brightPink/80 hover:font-bold transition-all flex justify-center"
@@ -102,7 +102,7 @@ const Navbar = () => {
               Menu
             </Link> */}
             <a
-              href="https://tbbtesting.netlify.app/menu"
+              href="https://tarosbobabar.netlify.app/menu"
               target="_blank"
               title="Menu"
               className=" text-[1.5rem] hover:text-color-brightPink/75 hover:font-bold hover:tracking-wider transition-all duration-100 mb-10"
