@@ -13,8 +13,6 @@ const About = () => {
             src={cupWithLogo}
             alt="Boba catering private event"
             className="neumorphism mx-20 my-10 rounded-[20%] object-cover w-[400px] h-[400px] md:w-[500px] md:h-[500px] "
-            width={500}
-            height={500}
           />
         </div>
 
