@@ -143,7 +143,7 @@ const Pricing = () => {
         <div className="w-full flex justify-center gap-10">
           <Button
             style="secondary"
-            href="https://tbbtesting.netlify.app/menu"
+            href="https://tarosbobabar.netlify.app/menu"
             className="md:w-[180px] w-[150px]"
           >
             View Menu
