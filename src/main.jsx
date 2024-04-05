@@ -1,17 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Menu from './components/Menu.jsx';
+
+import App from './pages/App.jsx';
+import Menu from './pages/MenuPage.jsx';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+  },
+  {
+    path: '/menu',
+    element: <Menu />,
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router>
-      <Routes>
-        <Route  path="/" element={<App />} />
-        <Route path="/menu" element={<Menu />} />
-      </Routes>
-    </Router>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );

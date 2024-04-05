@@ -88,14 +88,14 @@ const Pricing = () => {
                 <div className="flex justify-center items-center gap-10 mt-10">
                   <Button
                     style="secondary"
-                    href="https://tarosbobabar.netlify.app/menu"
+                    to="/menu"
                     className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
                   >
                     View Menu
                   </Button>
                   <Button
                     style="primary"
-                    href={`mailto:${encodedEmail}${baristaMailto}`}
+                    to={`mailto:${encodedEmail}${baristaMailto}`}
                     className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
                   >
                     Contact Us
@@ -145,14 +145,14 @@ const Pricing = () => {
                 <div className="flex justify-center items-center gap-10 mt-10">
                   <Button
                     style="secondary"
-                    href="https://tarosbobabar.netlify.app/menu"
+                    to="/menu"
                     className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
                   >
                     View Menu
                   </Button>
                   <Button
                     style="primary"
-                    href="https://tarosbobabar.paperform.co"
+                    to="https://tarosbobabar.paperform.co"
                     className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
                   >
                     Book Now
@@ -206,14 +206,14 @@ const Pricing = () => {
                 <div className="flex justify-center items-center gap-10 mt-10">
                   <Button
                     style="secondary"
-                    href="https://tarosbobabar.netlify.app/menu"
+                    to="/menu"
                     className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
                   >
                     View Menu
                   </Button>
                   <Button
                     style="primary"
-                    href={`mailto:${encodedEmail}${deliveryMailto}`}
+                    to={`mailto:${encodedEmail}${deliveryMailto}`}
                     className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
                   >
                     Contact Us
