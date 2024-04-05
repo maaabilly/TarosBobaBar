@@ -6,6 +6,14 @@ import { LuCheckCircle2 } from 'react-icons/lu';
 
 const Pricing = () => {
   const encodedEmail = String.fromCharCode(
+    99,
+    111,
+    110,
+    116,
+    97,
+    99,
+    116,
+    64,
     116,
     97,
     114,
@@ -18,12 +26,6 @@ const Pricing = () => {
     98,
     97,
     114,
-    64,
-    103,
-    109,
-    97,
-    105,
-    108,
     46,
     99,
     111,
