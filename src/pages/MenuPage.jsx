@@ -46,7 +46,7 @@ const Menu = () => {
               <div
                 className={
                   menuIndex === wholeMenu.length - 1
-                    ? ``
+                    ? `hidden`
                     : 'mx-auto mt-10 border rounded-full border-color-hotPink/30 w-4/5'
                 }
               />
