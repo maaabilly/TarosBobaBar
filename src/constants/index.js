@@ -60,14 +60,13 @@ export const cateredCompanies = [
 ];
 
 export const carouselPhotos = [
-  { id: '0', alt: '', src: stand1 },
-  { id: '1', alt: '', src: stand2 },
-  { id: '2', alt: '', src: stand3 },
-  { id: '3', alt: '', src: stand4 },
-  { id: '4', alt: '', src: stand5 },
-  { id: '5', alt: '', src: stand6 },
-  { id: '7', alt: '', src: stand7 },
-
+  { id: '0', src: stand1 },
+  { id: '1', src: stand2 },
+  { id: '2', src: stand3 },
+  { id: '3', src: stand4 },
+  { id: '4', src: stand5 },
+  { id: '5', src: stand6 },
+  { id: '7', src: stand7 },
 ];
 
 export const services = [
@@ -178,10 +177,10 @@ export const onSiteService = [
   },
 ];
 
-export const menu = [
+export const wholeMenu = [
   {
     title: 'Milk Teas',
-    teas: [
+    items: [
       {
         name: 'Jasmine Milk Tea',
         description:
@@ -206,7 +205,7 @@ export const menu = [
   },
   {
     title: 'Fruit Teas',
-    teas: [
+    items: [
       {
         name: 'Lychee Green / Black Tea',
         description:
@@ -231,12 +230,12 @@ export const menu = [
   },
   {
     title: 'Toppings',
-    toppings: [
-      'Honey Boba',
-      'White Pearls',
-      'Mango Jelly',
-      'Strawberry Jelly',
-      'Lychee Jelly',
+    items: [
+      { name: 'Honey Boba', description: '' },
+      { name: 'White Pearls', description: '' },
+      { name: 'Mango Jelly', description: '' },
+      { name: 'Strawberry Jelly', description: '' },
+      { name: 'Lychee Jelly', description: '' },
     ],
   },
 ];
