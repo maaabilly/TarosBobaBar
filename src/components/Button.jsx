@@ -10,11 +10,11 @@ const Button = ({ className, style, children, href }) => {
   };
 
   return (
-    <button className={`${classes} ${className || ''} ${renderStyle(style)}`}>
-      <a href={href || ''} target="_blank">
+    <a href={href || ''} target="_blank">
+      <button className={`${classes} ${className || ''} ${renderStyle(style)}`}>
         {children}
-      </a>
-    </button>
+      </button>
+    </a>
   );
 };
 
