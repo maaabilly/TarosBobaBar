@@ -88,7 +88,7 @@ const Pricing = () => {
                 <div className="flex justify-center items-center gap-10 mt-10">
                   <Button
                     style="secondary"
-                    href="https://tarosbobabar.netlify.app/menu"
+                    href="/menu"
                     className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
                   >
                     View Menu
@@ -145,7 +145,7 @@ const Pricing = () => {
                 <div className="flex justify-center items-center gap-10 mt-10">
                   <Button
                     style="secondary"
-                    href="https://tarosbobabar.netlify.app/menu"
+                    href="/menu"
                     className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
                   >
                     View Menu
@@ -206,7 +206,7 @@ const Pricing = () => {
                 <div className="flex justify-center items-center gap-10 mt-10">
                   <Button
                     style="secondary"
-                    href="https://tarosbobabar.netlify.app/menu"
+                    href="/menu"
                     className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
                   >
                     View Menu

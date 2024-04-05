@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Button = ({ className, style, children, href }) => {
   const classes =
     'font-medium py-3 rounded-md text-nowrap transition-all hover:font-semibold hover:scale-105 flex justify-center items-center ';
@@ -10,11 +12,11 @@ const Button = ({ className, style, children, href }) => {
   };
 
   return (
-    <a href={href || ''} target="_blank">
+    <Link to={href || ''} target="_blank">
       <button className={`${classes} ${className || ''} ${renderStyle(style)}`}>
         {children}
       </button>
-    </a>
+    </Link>
   );
 };
 
