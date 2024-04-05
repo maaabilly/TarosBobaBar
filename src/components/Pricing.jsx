@@ -85,7 +85,7 @@ const Pricing = () => {
                     </p>
                   </div>
                 </div>
-                <div className="flex justify-center items-center gap-10 mt-10">
+                <div className="flex justify-center items-center gap-5 md:gap-10 mt-10">
                   <Button
                     style="secondary"
                     href="/menu"
@@ -142,7 +142,7 @@ const Pricing = () => {
                     </p>
                   </div>
                 </div>
-                <div className="flex justify-center items-center gap-10 mt-10">
+                <div className="flex justify-center items-center gap-5 md:gap-10 mt-10">
                   <Button
                     style="secondary"
                     href="/menu"
@@ -203,7 +203,7 @@ const Pricing = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="flex justify-center items-center gap-10 mt-10">
+                <div className="flex justify-center items-center gap-5 md:gap-10 mt-10">
                   <Button
                     style="secondary"
                     href="/menu"

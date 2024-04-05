@@ -25,7 +25,7 @@ const Tabs = ({ children }) => {
           </button>
         ))}
       </div>
-      <div className="py-4 px-8 md:px-[5rem]">
+      <div className="py-4 px-2 sm:px-8 md:px-[5rem]">
         {children.map((child) => {
           if (child.props.label === activeTab) {
             return <div key={child.props.label}>{child.props.children}</div>;
