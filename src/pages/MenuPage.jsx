@@ -5,13 +5,13 @@ const Menu = () => {
     <div className="menu-gradient">
       <div className="flex max-w-[700px] p-10 mx-auto text-center">
         <div className="flex-col text-center bg-white rounded-3xl py-4 px-10">
-          <h3 className="text-[35px] font-bold playfair mb-2 mt-5">
+          <h3 className="text-3xl md:text-[35px] font-bold playfair mb-2 mt-5">
             TarosBobaBar Menu
           </h3>
           <div className="rounded-full border-2 border-color-hotPink/50"></div>
           {wholeMenu.map((menu, menuIndex) => (
             <div key={menu.title} className="flex flex-col my-10">
-              <h3 className="font-bold text-2xl mb-5 mx-auto playfair">
+              <h3 className="font-bold text-2xl mb-5 mx-auto playfair tracking-wider">
                 {menu.title}
               </h3>
               <ul
@@ -27,13 +27,13 @@ const Menu = () => {
                       className={
                         menuIndex === wholeMenu.length - 1
                           ? `hidden`
-                          : `text-bold text-[20px] text-left mr-3`
+                          : `text-bold text-[20px] text-left mr-3 `
                       }
                     >
                       {teaIndex + 1}.
                     </h5>
                     <div className="flex flex-col">
-                      <h5 className="text-bold text-[20px] text-left">
+                      <h5 className="font-semibold text-lg md:text-[20px] text-left tracking-wide">
                         {tea.name}
                       </h5>
                       <p className="text-md text-left ml-5">
