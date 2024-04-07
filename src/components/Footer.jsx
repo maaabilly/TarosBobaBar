@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
           <div className="flex gap-2 justify-center items-center">
             <LuMail size={20} />
-            tarosbobabar@gmail.com
+            contact@tarosbobabar.com
           </div>
         </div>
 
