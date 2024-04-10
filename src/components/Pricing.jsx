@@ -2,7 +2,7 @@
 import { Tabs, Tab } from './Tabs';
 import Button from './Button';
 import { barista, delivery, stand5 } from '../assets';
-import { LuCheckCircle2 } from 'react-icons/lu';
+import { LuCheckCircle2, LuAlertCircle } from 'react-icons/lu';
 
 const Pricing = () => {
   const encodedEmail = String.fromCharCode(
@@ -77,7 +77,7 @@ const Pricing = () => {
                     </div>
                     <ul className="flex flex-col gap-3 text-[1.2rem] mb-4">
                       <li className="flex items-center gap-5">
-                        <LuCheckCircle2 size={25} /> Minimum 4 Hours Service
+                        <LuAlertCircle size={25} /> Minimum 4 Hours Service
                       </li>
                     </ul>
                     <p className="text-lg md:text-xl">
@@ -127,21 +127,23 @@ const Pricing = () => {
                     </div>
                     <ul className="flex flex-col gap-3 text-lg mb-4">
                       <li className="flex items-center gap-5">
-                        <LuCheckCircle2 size={25} /> Choice of Multiple Flavors
+                        <LuCheckCircle2 size={25} className="flex-none" />
+                        Freedom to mix and match
                       </li>
                       <li className="flex items-center gap-5">
-                        <LuCheckCircle2 size={25} />
-                        Aesthetic Decorations
+                        <LuCheckCircle2 size={25} className="flex-none" />
+                        Aesthetic decorations
                       </li>
                       <li className="flex items-center gap-5">
-                        <LuCheckCircle2 size={25} />
-                        Set Up and Clean Up
+                        <LuAlertCircle size={25} className="flex-none" />
+                        Pricing base on event size
+                      </li>
+                      <li className="flex items-center gap-5">
+                        <LuAlertCircle size={25} className="flex-none" />
+                        Custom pricing for 100+ guest events
                       </li>
                     </ul>
-                    <p className="text-lg md:text-xl">
-                      Your guests will have the freedom to mix and match
-                      different teas and toppings to their liking!
-                    </p>
+                  
                   </div>
                 </div>
                 <div className="flex justify-center items-center gap-5 md:gap-10 mt-10">
@@ -188,19 +190,23 @@ const Pricing = () => {
                     <ul className="flex flex-col gap-3 text-lg mb-4">
                       <li className="flex items-center gap-5">
                         <LuCheckCircle2 size={25} /> Additional 50&cent; for
-                        Toppings
+                        toppings
                       </li>
                       <li className="flex items-center gap-5">
-                        <LuCheckCircle2 size={25} />
-                        30 Drinks Order Minimum
+                        <LuCheckCircle2 size={25} className="flex-none" />
+                        30 drinks order minimum
                       </li>
                       <li className="flex items-center gap-5">
-                        <LuCheckCircle2 size={25} />
-                        Free Delivery for 50+ Drinks
+                        <LuCheckCircle2 size={25} className="flex-none" />
+                        Free delivery for 50+ drinks
                       </li>
                       <li className="flex items-center gap-5">
-                        <LuCheckCircle2 size={25} />
-                        $50 Delivery Fee Otherwise
+                        <LuCheckCircle2 size={25} className="flex-none" />
+                        $50 delivery fee otherwise
+                      </li>
+                      <li className="flex items-center gap-5">
+                        <LuAlertCircle size={25} className="flex-none" />
+                        See menu for Samples Options
                       </li>
                     </ul>
                   </div>
