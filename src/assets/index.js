@@ -22,7 +22,9 @@ import stand4 from './images/stand4.jpeg';
 import stand5 from './images/stand5.jpeg';
 import stand6 from './images/stand6.jpeg';
 import stand7 from './images/stand7.jpeg';
-import cupWithLogo from './images/cup-with-logo.jpeg'
+import cupWithLogo from './images/cup-with-logo.jpeg';
+import tbbTshirt from './images/tbb-tshirt.jpg';
+import cupLogo from './images/cup-logo.jpg';
 
 export {
   bobaIsLife,
@@ -49,5 +51,7 @@ export {
   stand5,
   stand6,
   stand7,
-  cupWithLogo
+  cupWithLogo,
+  tbbTshirt,
+  cupLogo,
 };

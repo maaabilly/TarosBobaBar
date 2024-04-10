@@ -27,7 +27,7 @@ export const hero = {
   subheading: 'Make your next event a Par-Tea!',
   subheading2: 'Your one stop shop for boba catering in the Bay Area!',
   reactTyped: {
-    strings: ['Birthdays!', 'Weddings!', 'Company Parties!', 'Baby Showers!'],
+    strings: ['Birthdays!', 'Weddings!', 'Company Parties!', 'Baby Showers!', 'Graduations!', 'Anniversaries!'],
     classes:
       'lg:text-6xl md:text-5xl text-[2.8rem] leading-[3rem] font-bold h-[70px] sm:h-full playfair',
   },

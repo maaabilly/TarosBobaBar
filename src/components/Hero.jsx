@@ -1,13 +1,13 @@
 import { ReactTyped } from 'react-typed';
 import { hero } from '../constants';
-import { heroBg2 } from '../assets';
+import { cupLogo } from '../assets';
 import Button from './Button';
 
 const Hero = () => {
   return (
     <div className=" w-full mx-auto" id="hero">
-      <div className="absolute w-full h-screen md:h-[80vh] z-10 px-8 bg-hero lg:bg-cover bg-cover bg-bottom bg-no-repeat ">
-        <div className=" text-gray-800 md:mx-[10%] mt-[60%] sm:mt-[35%] md:mt-[25%] lg:mt-[20%] xl:ml-[10%]">
+      <div className="absolute w-full h-screen md:h-[80vh] z-10 px-8 bg-hero lg:bg-cover bg-cover bg-bottom bg-no-repeat bg-black/25">
+        <div className=" text-gray-200 md:mx-[10%] mt-[60%] sm:mt-[35%] md:mt-[25%] lg:mt-[20%] xl:ml-[10%]">
           <p className="text-2xl tracking-wide font-semibold md:ml-[-30px] mb-[2rem]">
             {hero.subheading2}
           </p>
@@ -24,7 +24,7 @@ const Hero = () => {
               />
             </h1>
           </div>
-          <div className="mt-[3rem] sm:mt-0 flex justify-center sm:justify-start">
+          <div className="mt-[5rem]  flex justify-center">
             <Button
               style="primary"
               href="https://tarosbobabar.paperform.co"
@@ -36,7 +36,7 @@ const Hero = () => {
         </div>
       </div>
       <img
-        src={heroBg2}
+        src={cupLogo}
         alt="Boba Milk Tea Display"
         className=" w-full h-screen md:h-[75vh] object-cover mt-[-70px]"
       />
