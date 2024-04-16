@@ -1,7 +1,7 @@
 // import { useState } from 'react';
 import { Tabs, Tab } from './Tabs';
 import Button from './Button';
-import { barista, delivery, stand5 } from '../assets';
+import { barista, delivery, selfServe } from '../assets';
 import { LuCheckCircle2, LuAlertCircle } from 'react-icons/lu';
 
 const Pricing = () => {
@@ -112,7 +112,7 @@ const Pricing = () => {
                 <div className="flex flex-col md:flex-row items-center ">
                   <div className="flex-1 mb-4 md:mb-0">
                     <img
-                      src={stand5}
+                      src={selfServe}
                       alt="boba catering private event table station set up"
                       className="rounded-3xl"
                     />
@@ -143,7 +143,6 @@ const Pricing = () => {
                         Custom pricing for 100+ guest events
                       </li>
                     </ul>
-                  
                   </div>
                 </div>
                 <div className="flex justify-center items-center gap-5 md:gap-10 mt-10">
