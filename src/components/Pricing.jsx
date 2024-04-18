@@ -70,14 +70,14 @@ const Pricing = () => {
                     </h4>
                     <p className="text-2xl mt-2 ">Starting at</p>
                     <div className="flex justify-start text-5xl md:text-6xl mb-4">
-                      <span className="mt-2 text-2xl md:text-3xl">$</span>300{' '}
+                      <span className="mt-2 text-2xl md:text-3xl">$</span>500{' '}
                       <span className="ml-2 self-end text-2xl md:text-3xl">
                         /hour
                       </span>
                     </div>
                     <ul className="flex flex-col gap-3 text-[1.2rem] mb-4">
                       <li className="flex items-center gap-5">
-                        <LuAlertCircle size={25} /> Minimum 4 Hours Service
+                        <LuAlertCircle size={25} /> Minimum 2 Hours Service
                       </li>
                     </ul>
                     <p className="text-lg md:text-xl">
