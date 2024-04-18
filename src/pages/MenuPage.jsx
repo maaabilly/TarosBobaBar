@@ -17,7 +17,7 @@ const Menu = () => {
             <p className="text-lg text-left mb-2">
               Can&apos;t decide on which tea/milk tea flavors or toppings you
               want for your next event? Let us know what you would like to
-              sample and we will delivery it to you for FREE! Take the guesswork out and make sure you pick the perfect flavors and toppings
+              sample and we will deliver it to you for FREE! Take the guesswork out and make sure you pick the perfect flavors and toppings
               for your next event!
             </p>
             <ul className="flex flex-wrap justify-start items-center gap-10 mt-5">
