@@ -35,8 +35,8 @@ const Pricing = () => {
   const baristaMailto =
     '?subject=Premium%20On%20Site%20Barista%20Inquiry&body=Hello%20Tea%20Lovers!%0A%0APlease%20share%20with%20us%20some%20details%20regarding%20the%20event%20you%20are%20planning!%0A%0ALocation%3A%20%20%0ADate%3A%20%20%0ATime%3A%20%20%0AHours%20of%20Service%3A%20%20%0AType%20of%20Event%3A%20%20%0AEstimated%20Guests%20Amount%3A%20%20%0AAdditional%20Details%3A%0A%20%20%20%20%0AThank%20you%20so%20much%20for%20reaching%20out%20to%20Tarosbobabar!%20%0A%0AWe%20will%20get%20back%20to%20you%20as%20soon%20as%20possible!';
 
-  const deliveryMailto =
-    '?subject=Delivery%20Drop%20Off%20Inquiry&body=Hello%20Tea%20Lovers!%0A%0APlease%20share%20with%20us%20some%20details%20regarding%20the%20event%20you%20are%20planning!%0A%0ALocation%3A%20%20%0ADate%3A%20%20%0ATime%20of%20Day%3A%20%20%0ANumber%20of%20Drinks%3A%20%20%0AAdditional%20Details%3A%0A%0AThank%20you%20so%20much%20for%20reaching%20out%20to%20Tarosbobabar!%20%0A%0AWe%20will%20get%20back%20to%20you%20as%20soon%20as%20possible!';
+  // const deliveryMailto =
+  //   '?subject=Delivery%20Drop%20Off%20Inquiry&body=Hello%20Tea%20Lovers!%0A%0APlease%20share%20with%20us%20some%20details%20regarding%20the%20event%20you%20are%20planning!%0A%0ALocation%3A%20%20%0ADate%3A%20%20%0ATime%20of%20Day%3A%20%20%0ANumber%20of%20Drinks%3A%20%20%0AAdditional%20Details%3A%0A%0AThank%20you%20so%20much%20for%20reaching%20out%20to%20Tarosbobabar!%20%0A%0AWe%20will%20get%20back%20to%20you%20as%20soon%20as%20possible!';
 
   return (
     <div
@@ -214,16 +214,16 @@ const Pricing = () => {
                   <Button
                     style="secondary"
                     href="/menu"
-                    className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
+                    className="px-5 md:w-[200px] md:h-[55px] lg:w-[220px] sm7:w-[150px]"
                   >
                     View Menu
                   </Button>
                   <Button
                     style="primary"
-                    href={`mailto:${encodedEmail}${deliveryMailto}`}
-                    className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
+                    href={`https://9wgtpbuh.paperform.co/`}
+                    className=" md:w-[200px] md:h-[55px] lg:w-[220px] px-5"
                   >
-                    Contact Us
+                    Order Menu Sample
                   </Button>
                 </div>
               </div>
