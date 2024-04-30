@@ -27,7 +27,14 @@ export const hero = {
   subheading: 'Make your next event a Par-Tea!',
   subheading2: 'Your one stop shop for boba catering in the Bay Area!',
   reactTyped: {
-    strings: ['Birthdays!', 'Weddings!', 'Company Parties!', 'Baby Showers!', 'Graduations!', 'Anniversaries!'],
+    strings: [
+      'Birthdays!',
+      'Weddings!',
+      'Company Parties!',
+      'Baby Showers!',
+      'Graduations!',
+      'Anniversaries!',
+    ],
     classes:
       'lg:text-6xl md:text-5xl text-[2.8rem] leading-[3rem] font-bold h-[70px] sm:h-full playfair',
   },
@@ -203,6 +210,7 @@ export const wholeMenu = [
       },
     ],
   },
+
   {
     title: 'Fruit Teas',
     items: [
@@ -226,6 +234,28 @@ export const wholeMenu = [
         description:
           'Juicy peach essence meets perfectly brewed tea for a blissful, refreshing sip.',
       },
+      {
+        name: 'Orange Green Tea',
+        description:
+          'Freshly hand-squeezed orange juice combined with floral, sweet, and fragrant green tea.',
+      },
+    ],
+  },
+  {
+    title: 'Non-Caffeinated Drinks',
+    items: [
+      {
+        name: 'Freshly Squeezed Orange Juice',
+        description: '',
+      },
+      {
+        name: 'Watermelon Juice',
+        description: '',
+      },
+      {
+        name: 'Pineapple Quencher',
+        description: '',
+      },
     ],
   },
   {
@@ -233,9 +263,11 @@ export const wholeMenu = [
     items: [
       { name: 'Honey Boba', description: '' },
       { name: 'White Pearls', description: '' },
+      { name: 'Grass Jelly', description: '' },
       { name: 'Mango Jelly', description: '' },
       { name: 'Strawberry Jelly', description: '' },
       { name: 'Lychee Jelly', description: '' },
+      { name: 'Egg Pudding', description: '' },
     ],
   },
 ];
