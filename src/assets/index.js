@@ -25,7 +25,13 @@ import stand7 from './images/stand7.jpeg';
 import cupWithLogo from './images/cup-with-logo.jpeg';
 import tbbTshirt from './images/tbb-tshirt.jpg';
 import cupLogo from './images/cup-logo.jpg';
-import selfServe from './images/self-serve.jpg'
+import selfServe from './images/self-serve.jpg';
+import meta from './icons/meta.png';
+import cisco from './icons/cisco.png';
+import branch from './icons/branch.png';
+import confluent from './icons/confluent.png';
+import happily from './icons/happily.png';
+import backblaze from './icons/backblaze.png';
 
 export {
   bobaIsLife,
@@ -40,6 +46,12 @@ export {
   kpmg,
   sjsu,
   zip,
+  meta,
+  cisco,
+  branch,
+  confluent,
+  happily,
+  backblaze,
   textLogo,
   borderedLogo,
   delivery,
@@ -55,5 +67,5 @@ export {
   cupWithLogo,
   tbbTshirt,
   cupLogo,
-  selfServe
+  selfServe,
 };

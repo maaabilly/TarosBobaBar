@@ -70,7 +70,7 @@ const Pricing = () => {
                     </h4>
                     <p className="text-2xl mt-2 ">Starting at</p>
                     <div className="flex justify-start text-5xl md:text-6xl mb-4">
-                      <span className="mt-2 text-2xl md:text-3xl">$</span>500{' '}
+                      <span className="mt-2 text-2xl md:text-3xl">$</span>600{' '}
                       <span className="ml-2 self-end text-2xl md:text-3xl">
                         /hour
                       </span>
@@ -79,11 +79,15 @@ const Pricing = () => {
                       <li className="flex items-center gap-5">
                         <LuAlertCircle size={25} /> Minimum 2 Hours Service
                       </li>
+                      <li className="flex items-center gap-5">
+                        <LuAlertCircle size={25} /> No Non-Caffeinated Options
+                      </li>
                     </ul>
                     <p className="text-lg md:text-xl">
-                      We will have on site baristas making drinks to order! Your
-                      guests will enjoy endless possibilities for tea flavor and
-                      topping combinations!
+                      We will bring our ENTIRE menu to your event and have
+                      professional on-site baristas making drinks to order. Your
+                      guests will enjoy endless possibilities for tea flavor,
+                      sweetness adjustments, and topping combinations!
                     </p>
                   </div>
                 </div>
@@ -123,7 +127,7 @@ const Pricing = () => {
                     </h4>
                     <p className="text-2xl mt-2 ">Starting at</p>
                     <div className="flex justify-start text-5xl md:text-6xl mb-4">
-                      <span className="mt-2 text-2xl md:text-3xl">$</span>400
+                      <span className="mt-2 text-2xl md:text-3xl">$</span>460
                     </div>
                     <ul className="flex flex-col gap-3 text-lg mb-4">
                       <li className="flex items-center gap-5">

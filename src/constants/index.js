@@ -11,8 +11,17 @@ import {
   stand5,
   stand6,
   stand7,
+  meta,
+  cisco,
+  branch,
+  confluent,
+  happily,
+  google,
+  micron,
+  kpmg,
+  sjsu,
+  zip,
 } from '../assets';
-import { google, micron, kpmg, sjsu, zip } from '../assets';
 
 export const navigation = [
   { id: '0', title: 'About', url: '/about', href: '#about' },
@@ -59,11 +68,16 @@ export const whyCater = [
 ];
 
 export const cateredCompanies = [
-  { id: '0', title: 'Micron Technology', logo: micron },
-  { id: '1', title: 'Zip', logo: zip },
-  { id: '2', title: 'Google', logo: google },
-  { id: '3', title: 'San Jose State University', logo: sjsu },
-  { id: '4', title: 'KPMG', logo: kpmg },
+  { title: 'Zip', logo: zip },
+  { title: 'Google', logo: google },
+  { title: 'Meta', logo: meta },
+  { title: 'CISCO', logo: cisco },
+  { title: 'happily', logo: happily },
+  { title: 'Micron Technology', logo: micron },
+  { title: 'KPMG', logo: kpmg },
+  { title: 'San Jose State University', logo: sjsu },
+  { title: 'branch', logo: branch },
+  { title: 'confluent', logo: confluent },
 ];
 
 export const carouselPhotos = [
