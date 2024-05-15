@@ -127,7 +127,10 @@ const Pricing = () => {
                     </h4>
                     <p className="text-2xl mt-2 ">Starting at</p>
                     <div className="flex justify-start text-5xl md:text-6xl mb-4">
-                      <span className="mt-2 text-2xl md:text-3xl">$</span>460
+                      <span className="mt-2 text-2xl md:text-3xl">$</span>500
+                      <span className="ml-2 self-end text-2xl md:text-3xl">
+                        /station
+                      </span>
                     </div>
                     <ul className="flex flex-col gap-3 text-lg mb-4">
                       <li className="flex items-center gap-5">
@@ -192,20 +195,19 @@ const Pricing = () => {
                     </div>
                     <ul className="flex flex-col gap-3 text-lg mb-4">
                       <li className="flex items-center gap-5">
-                        <LuCheckCircle2 size={25} /> Additional 50&cent; for
-                        toppings
+                        <LuCheckCircle2 size={25} className="flex-none" />
+                        Free delivery for 300+ drinks
                       </li>
                       <li className="flex items-center gap-5">
-                        <LuCheckCircle2 size={25} className="flex-none" />
-                        30 drinks order minimum
+                        <LuAlertCircle size={25} className="flex-none" />
+                        $100 delivery fee otherwise
                       </li>
                       <li className="flex items-center gap-5">
-                        <LuCheckCircle2 size={25} className="flex-none" />
-                        Free delivery for 50+ drinks
+                        <LuAlertCircle size={25} className="flex-none" />
+                        50 drinks order minimum
                       </li>
                       <li className="flex items-center gap-5">
-                        <LuCheckCircle2 size={25} className="flex-none" />
-                        $50 delivery fee otherwise
+                        <LuAlertCircle size={25} /> Toppings not included
                       </li>
                       <li className="flex items-center gap-5">
                         <LuAlertCircle size={25} className="flex-none" />
