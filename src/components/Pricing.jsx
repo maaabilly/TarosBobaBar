@@ -91,18 +91,18 @@ const Pricing = () => {
                     </p>
                   </div>
                 </div>
-                <div className="flex justify-center items-center gap-5 md:gap-10 mt-10">
+                <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-10 mt-10">
                   <Button
                     style="secondary"
                     href="/menu"
-                    className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
+                    className="w-[280px] sm:w-[200px] md:h-[55px] lg:w-[220px]"
                   >
                     View Menu
                   </Button>
                   <Button
                     style="primary"
                     href={`mailto:${encodedEmail}${baristaMailto}`}
-                    className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
+                    className="w-[280px] sm:w-[200px] md:h-[55px] lg:w-[220px]"
                   >
                     Contact Us
                   </Button>
@@ -152,18 +152,18 @@ const Pricing = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="flex justify-center items-center gap-5 md:gap-10 mt-10">
+                <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-10 mt-10">
                   <Button
                     style="secondary"
                     href="/menu"
-                    className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
+                    className="w-[280px] sm:w-[200px] md:h-[55px] lg:w-[220px]"
                   >
                     View Menu
                   </Button>
                   <Button
                     style="primary"
                     href="https://tarosbobabar.paperform.co"
-                    className="w-[150px] md:w-[200px] md:h-[55px] lg:w-[220px]"
+                    className="w-[280px] sm:w-[200px] md:h-[55px] lg:w-[220px]"
                   >
                     Book Now
                   </Button>
@@ -216,20 +216,27 @@ const Pricing = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="flex justify-center items-center gap-5 md:gap-10 mt-10">
+                <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-5 mt-10">
                   <Button
                     style="secondary"
                     href="/menu"
-                    className="px-5 md:w-[200px] md:h-[55px] lg:w-[220px] sm7:w-[150px]"
+                    className="w-[280px] sm:w-[180px] md:h-[55px] lg:w-[220px]"
                   >
                     View Menu
                   </Button>
                   <Button
                     style="primary"
                     href={`https://9wgtpbuh.paperform.co/`}
-                    className=" md:w-[200px] md:h-[55px] lg:w-[220px] px-5"
+                    className="w-[280px] sm:w-[180px] md:h-[55px] lg:w-[220px]"
                   >
-                    Order Menu Sample
+                    Order Sample
+                  </Button>
+                  <Button
+                    style="primary"
+                    href={`https://kykdfpbp.paperform.co/`}
+                    className="w-[280px] sm:w-[180px] md:h-[55px] lg:w-[220px]"
+                  >
+                    Order Delivery
                   </Button>
                 </div>
               </div>
