@@ -255,23 +255,23 @@ export const wholeMenu = [
       },
     ],
   },
-  {
-    title: 'Non-Caffeinated Drinks',
-    items: [
-      {
-        name: 'Freshly Squeezed Orange Juice',
-        description: '',
-      },
-      {
-        name: 'Watermelon Juice',
-        description: '',
-      },
-      {
-        name: 'Pineapple Quencher',
-        description: '',
-      },
-    ],
-  },
+  // {
+  //   title: 'Non-Caffeinated Drinks',
+  //   items: [
+  //     {
+  //       name: 'Freshly Squeezed Orange Juice',
+  //       description: '',
+  //     },
+  //     {
+  //       name: 'Watermelon Juice',
+  //       description: '',
+  //     },
+  //     {
+  //       name: 'Pineapple Quencher',
+  //       description: '',
+  //     },
+  //   ],
+  // },
   {
     title: 'Toppings',
     items: [

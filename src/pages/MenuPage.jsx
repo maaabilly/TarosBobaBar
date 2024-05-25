@@ -33,7 +33,7 @@ const Menu = () => {
                 <h5 className={`text-bold text-[20px] text-left mr-3`}>2.</h5>
                 <div className="flex flex-col">
                   <h5 className="font-semibold text-xl md:text-[20px] text-left tracking-wide">
-                    $60 for Entire Menu Sample
+                    $65 for Entire Menu Sample
                   </h5>
                 </div>
               </li>
