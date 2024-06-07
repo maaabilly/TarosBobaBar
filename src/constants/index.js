@@ -229,6 +229,11 @@ export const wholeMenu = [
     title: 'Milk Teas',
     items: [
       {
+        name: 'Taro Milk Tea',
+        description:
+          'A creamy, sweet purple tea with a hint of vanilla, made from taro root, milk, and tea, perfect for a unique flavor experience.',
+      },
+      {
         name: 'Jasmine Milk Tea',
         description:
           'A delicate blend of fragrant jasmine tea and creamy milk for a soothing, aromatic experience that transcends the ordinary.',
@@ -247,11 +252,6 @@ export const wholeMenu = [
         name: 'Thai Milk Tea',
         description:
           'Spiced black tea meets sweet condensed milk for a vibrant, refreshing sip of Thai culture.',
-      },
-      {
-        name: 'Taro Milk Tea',
-        description:
-          'A creamy, sweet purple tea with a hint of vanilla, made from taro root, milk, and tea, perfect for a unique flavor experience.',
       },
     ],
   },
