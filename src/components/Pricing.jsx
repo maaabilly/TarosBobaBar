@@ -40,7 +40,7 @@ const Pricing = () => {
 
   return (
     <div
-      className="relative mx-auto w-full pt-[4rem] pb-[6rem] md:pb-[7rem] lg:pb-[9rem] px-4 bg-pricing lg:bg-cover bg-contain bg-bottom bg-no-repeat bottom-[-10px]"
+      className="relative mx-auto w-full pt-[4rem] pb-[1rem] md:pb-[2rem] lg:pb-[2rem] px-4"
       id="services"
     >
       <div className="max-w-[1240px] mx-auto">
@@ -78,6 +78,9 @@ const Pricing = () => {
                     <ul className="flex flex-col gap-3 text-[1.2rem] mb-4">
                       <li className="flex items-center gap-5">
                         <LuAlertCircle size={25} /> Minimum 2 Hours Service
+                      </li>
+                      <li className="flex items-center gap-5">
+                        <LuAlertCircle size={25} /> 150 Guests Limit
                       </li>
                       <li className="flex items-center gap-5">
                         <LuAlertCircle size={25} /> No Non-Caffeinated Options

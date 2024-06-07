@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import PreviousClients from '../components/PreviousClients';
 import PhotoCarousel from '../components/PhotoCarousel';
 import Footer from '../components/Footer';
+import Testimonials from '../components/Testimonials';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <About />
       <Pricing />
+      <Testimonials />
       <PreviousClients />
       <PhotoCarousel />
       <Footer />

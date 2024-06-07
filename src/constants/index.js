@@ -29,6 +29,7 @@ export const navigation = [
   // { id: '2', title: 'Pricing', url: '/pricing', href: '#pricing' },
   // { id: '3', title: 'Menu', url: '/menu', href: '#menu' },
 ];
+
 export const hero = {
   img: bobaIsLife,
   heading: `Make your next event packed with flavor and fun by catering with`,
@@ -48,6 +49,7 @@ export const hero = {
       'lg:text-6xl md:text-5xl text-[2.8rem] leading-[3rem] font-bold h-[70px] sm:h-full playfair',
   },
 };
+
 export const about = {
   id: 'about',
   heading: 'Learn more about us!',
@@ -158,6 +160,24 @@ export const detailedServices = [
       'Aesthetic Decorations',
       'Set Up & Clean Up',
     ],
+  },
+];
+
+export const testimonials = [
+  {
+    name: 'Bhristian L.',
+    location: 'Fremont, CA',
+    review: `"Took the leap of fate and had them cater to my brothers 18th birthday party for their first official event and they delivered. Nothing but professional service all night long. They arrived early and set up their beautiful stand. It was especially a big hit with the kids! Who couldn't resist free boba?! Flavors were spot on and will definitely have them service for us in the future!"`,
+  },
+  {
+    name: 'Ruby P.',
+    location: 'Santa Barbara, CA',
+    review: `"Amazing! So happy with their selection of boba and the presentation. I hosted a small gathering and decided it would be fun to cater boba, and I have zero regrets. All my guests raved about it and were so happy. The flavors were amazing, the set up was adorable and perfect. 10/10 recommend!"`,
+  },
+  {
+    name: 'Shannon N.',
+    location: 'Santa Clara, CA',
+    review: `"I had them cater my daughter's 1st birthday party and everyone absolutely LOVED it. None of my guests could've resisted the boba selection and quality! We spoke to them about having elderly guests and Erin suggested appropriate drinks that they would enjoy (less sweetened Jasmine Green Tea). Philip was very professional and made the process super easy."`,
   },
 ];
 
