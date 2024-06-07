@@ -32,6 +32,9 @@ import branch from './icons/branch.png';
 import confluent from './icons/confluent.png';
 import happily from './icons/happily.png';
 import backblaze from './icons/backblaze.png';
+import woman1 from './icons/woman1.png';
+import woman2 from './icons/woman2.png';
+import woman3 from './icons/woman3.png';
 
 export {
   bobaIsLife,
@@ -68,4 +71,7 @@ export {
   tbbTshirt,
   cupLogo,
   selfServe,
+  woman1,
+  woman2,
+  woman3,
 };

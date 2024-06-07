@@ -21,6 +21,9 @@ import {
   kpmg,
   sjsu,
   zip,
+  woman1,
+  woman2,
+  woman3,
 } from '../assets';
 
 export const navigation = [
@@ -166,16 +169,19 @@ export const detailedServices = [
 export const testimonials = [
   {
     name: 'Jaymi J.',
+    avatar: woman1,
     location: 'Cupertino, CA',
     review: `"The boba was DELICIOUS! All our guests kept coming up to us saying how yummy the boba was & I 100% agree, it was sooooo good! We got the Thai milk tea, Jasmine milk tea & passionfruit green tea with honey boba, lychee jelly & mango jelly. It was so fun to be able to make our drinks ourselves. You better believe I'll be booking with Taro's Boba Bar again for our future events!"`,
   },
   {
     name: 'Shannon N.',
+    avatar: woman2,
     location: 'Santa Clara, CA',
     review: `"I had them cater my daughter's 1st birthday party and everyone absolutely LOVED it. None of my guests could've resisted the boba selection and quality! We spoke to them about having elderly guests and Erin suggested appropriate drinks that they would enjoy (less sweetened Jasmine Green Tea). Philip was very professional and made the process super easy."`,
   },
   {
     name: 'Ruby P.',
+    avatar: woman3,
     location: 'San Jose, CA',
     review: `"Amazing! So happy with their selection of boba and the presentation. I hosted a small gathering and decided it would be fun to cater boba, and I have zero regrets. All my guests raved about it and were so happy. The flavors were amazing, the set up was adorable and perfect. 10/10 recommend!"`,
   },

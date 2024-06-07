@@ -32,11 +32,14 @@ const Testimonials = () => {
                     </div>
                     <p className="flex my-5">{testimonial.review}</p>
                   </div>
-                  <div className="flex flex-col lg:self-start lg:ml-5">
-                    <h4 className="font-semibold text-xl">
-                      {testimonial.name}
-                    </h4>
-                    <p className="text-slate-500">{testimonial.location}</p>
+                  <div className='flex self-start ml-5 gap-4'>
+                    <img src={testimonial.avatar} alt="avatar" width={50} />
+                    <div className="flex flex-col">
+                      <h4 className="font-semibold text-xl">
+                        {testimonial.name}
+                      </h4>
+                      <p className="text-slate-500">{testimonial.location}</p>
+                    </div>
                   </div>
                 </div>
               </div>
