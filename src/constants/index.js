@@ -248,6 +248,11 @@ export const wholeMenu = [
         description:
           'Spiced black tea meets sweet condensed milk for a vibrant, refreshing sip of Thai culture.',
       },
+      {
+        name: 'Taro Milk Tea',
+        description:
+          'A creamy, sweet purple tea with a hint of vanilla, made from taro root, milk, and tea, perfect for a unique flavor experience.',
+      },
     ],
   },
 
