@@ -70,7 +70,7 @@ const Pricing = () => {
                     </h4>
                     <p className="text-2xl mt-2 ">Starting at</p>
                     <div className="flex justify-start text-5xl md:text-6xl mb-4">
-                      <span className="mt-2 text-2xl md:text-3xl">$</span>600{' '}
+                      <span className="mt-2 text-2xl md:text-3xl">$</span>500{' '}
                       <span className="ml-2 self-end text-2xl md:text-3xl">
                         /hour
                       </span>
