@@ -219,7 +219,10 @@ const Pricing = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-5 mt-10">
+                {/* *** With Order Sample button
+                <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-5 mt-10"> 
+                */}
+                <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-10 mt-10">
                   <Button
                     style="secondary"
                     href="/menu"
@@ -227,13 +230,13 @@ const Pricing = () => {
                   >
                     View Menu
                   </Button>
-                  <Button
+                  {/* <Button
                     style="primary"
                     href={`https://9wgtpbuh.paperform.co/`}
                     className="w-[280px] sm:w-[180px] md:h-[55px] lg:w-[220px]"
                   >
                     Order Sample
-                  </Button>
+                  </Button> */}
                   <Button
                     style="primary"
                     href={`https://kykdfpbp.paperform.co/`}
