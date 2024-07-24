@@ -240,27 +240,31 @@ export const wholeMenu = [
     items: [
       {
         name: 'Taro Milk Tea',
-        image: 'taro',
+        image: taro,
         description:
           'A creamy, sweet purple tea with a hint of vanilla, made from taro root, milk, and tea, perfect for a unique flavor experience.',
       },
       {
         name: 'Jasmine Milk Tea',
+        image: jasmine,
         description:
           'A delicate blend of fragrant jasmine tea and creamy milk for a soothing, aromatic experience that transcends the ordinary.',
       },
       {
         name: 'Black Milk Tea',
+        image: black,
         description:
           'Bold, robust black tea meets creamy milk for a rich, full-bodied beverage, a perfect harmony of flavor and comfort.',
       },
       {
         name: 'Honey Milk Tea',
+        image: honey,
         description:
           'This tasty drink brings together the creaminess of milk with the gentle sweetness of honey, creating a soothing and delicious treat.',
       },
       {
         name: 'Thai Milk Tea',
+        image: thai,
         description:
           'Spiced black tea meets sweet condensed milk for a vibrant, refreshing sip of Thai culture.',
       },
@@ -272,26 +276,31 @@ export const wholeMenu = [
     items: [
       {
         name: 'Lychee Green / Black Tea',
+        image: lychee,
         description:
           "Sip on the refreshing allure of green tea infused with the exotic sweetness of lychee—a harmonious blend that's both vibrant and delicious.",
       },
       {
         name: 'Mango Green / Black Tea',
+        image: mango,
         description:
           'A tropical escape featuring the bold essence of green tea intertwined with the juicy sweetness of ripe mango.',
       },
       {
         name: 'Passion Fruit Green / Black Tea',
+        image: passionfruit,
         description:
           'Exotic passion fruit essence delicately blended with premium tea leaves, creating a vibrant and refreshing tropical escape.',
       },
       {
         name: 'Peach Green / Black Tea',
+        image: peach,
         description:
           'Juicy peach essence meets perfectly brewed tea for a blissful, refreshing sip.',
       },
       {
         name: 'Orange Green Tea',
+        image: orange,
         description:
           'Freshly hand-squeezed orange juice combined with floral, sweet, and fragrant green tea.',
       },

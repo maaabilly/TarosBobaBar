@@ -1,10 +1,11 @@
 import { wholeMenu } from '../constants';
+import { taro } from '../assets';
 
 const Menu = () => {
   return (
     <div className="menu-gradient">
       <div className="flex max-w-[700px] p-10 mx-auto text-center">
-        <div className="flex-col text-center bg-white rounded-3xl py-4 px-10">
+        <div className="flex-col text-center bg-white rounded-3xl py-4 px-5 md:px-10">
           <h3 className="text-[2.5rem] md:text-[3.2rem] font-bold playfair mb-2 mt-5">
             TarosBobaBar Menu
           </h3>
@@ -54,7 +55,7 @@ const Menu = () => {
               >
                 {menu.items.map((tea, teaIndex) => (
                   <li className="flex" key={teaIndex}>
-                    <h5
+                    {/* <h5
                       className={
                         menuIndex === wholeMenu.length - 1
                           ? `hidden`
@@ -62,12 +63,23 @@ const Menu = () => {
                       }
                     >
                       {teaIndex + 1}.
-                    </h5>
-                    <div className="flex flex-col">
+                    </h5> */}{' '}
+                    <img
+                      src={tea.image}
+                      alt={tea.name}
+                      width={100}
+                      height={133}
+                      className={
+                        tea.image
+                          ? 'flex mr-5 rounded-lg w-[100px] h-[133px] mt-3 sm:mt-0'
+                          : 'hidden'
+                      }
+                    />
+                    <div className="flex flex-col ">
                       <h5 className="font-semibold text-xl md:text-[20px] text-left tracking-wide">
                         {tea.name}
                       </h5>
-                      <p className="text-lg text-left ml-5">
+                      <p className="text-lg text-left ml-2 font-light">
                         {tea.description}
                       </p>
                     </div>
