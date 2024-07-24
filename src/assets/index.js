@@ -35,6 +35,16 @@ import backblaze from './icons/backblaze.png';
 import woman1 from './icons/woman1.png';
 import woman2 from './icons/woman2.png';
 import woman3 from './icons/woman3.png';
+import taro from './images/taro.jpg';
+import jasmine from './images/jasmine.jpg';
+import black from './images/black.jpg';
+import honey from './images/honey.jpg';
+import thai from './images/thai.jpg';
+import lychee from './images/lychee.jpg';
+import mango from './images/mango.jpg';
+import passionfruit from './images/passionfruit.jpg';
+import orange from './images/orange.jpg';
+import peach from './images/peach.jpg';
 
 export {
   bobaIsLife,
@@ -74,4 +84,14 @@ export {
   woman1,
   woman2,
   woman3,
+  taro,
+  jasmine,
+  black,
+  honey,
+  thai,
+  lychee,
+  mango,
+  passionfruit,
+  peach,
+  orange,
 };

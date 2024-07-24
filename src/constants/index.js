@@ -24,6 +24,16 @@ import {
   woman1,
   woman2,
   woman3,
+  taro,
+  jasmine,
+  black,
+  honey,
+  thai,
+  lychee,
+  mango,
+  passionfruit,
+  peach,
+  orange,
 } from '../assets';
 
 export const navigation = [
@@ -230,6 +240,7 @@ export const wholeMenu = [
     items: [
       {
         name: 'Taro Milk Tea',
+        image: 'taro',
         description:
           'A creamy, sweet purple tea with a hint of vanilla, made from taro root, milk, and tea, perfect for a unique flavor experience.',
       },

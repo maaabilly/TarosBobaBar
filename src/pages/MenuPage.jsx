@@ -10,7 +10,7 @@ const Menu = () => {
           </h3>
           <div className="rounded-full border-2 border-color-hotPink/50"></div>
 
-          <div className="flex flex-col my-10">
+          {/* <div className="flex flex-col my-10">
             <h3 className="font-bold text-[1.8rem] mb-5 mx-auto playfair tracking-wider">
               Menu Sample Options
             </h3>
@@ -39,7 +39,7 @@ const Menu = () => {
               </li>
             </ul>
             <div className="mx-auto mt-10 border rounded-full border-color-hotPink/30 w-4/5" />
-          </div>
+          </div> */}
           {wholeMenu.map((menu, menuIndex) => (
             <div key={menuIndex} className="flex flex-col my-10">
               <h3 className="font-bold text-[1.8rem] mb-5 mx-auto playfair tracking-wider">
