@@ -51,14 +51,13 @@ const Navbar = () => {
           >
             Menu
           </Link>
-          {/* <a
-            href="https://tarosbobabar.netlify.app/menu"
+          {/* <Link
+            to="/menuRedesign"
             target="_blank"
-            title="Menu"
             className="text-lg font-medium text-gray-800/90 hover:text-color-brightPink/80 hover:font-bold transition-all flex justify-center"
           >
-            Menu
-          </a> */}
+            Menu Redesign
+          </Link> */}
         </ul>
         <Button
           style="primary"
