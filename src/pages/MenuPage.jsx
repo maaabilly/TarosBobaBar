@@ -1,3 +1,4 @@
+import { menuBg } from '../assets';
 import NavLogo from '../components/NavLogo';
 import { wholeMenu } from '../constants';
 
@@ -10,11 +11,16 @@ const Menu = () => {
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center items-center">
         <NavLogo className={'my-5'} />
         <div className="flex flex-col mx-10 justify-center items-center max-w-[800px]">
-          <h2 className="playfair md:text-4xl sm:text-3xl text-2xl text-center font-bold mt-2 mb-2 uppercase text-slate-800 tracking-wide">
+          <h2 className="playfair md:text-4xl sm:text-3xl text-2xl text-center font-bold mt-2 mb-4 uppercase text-slate-800 tracking-wide">
             explore our menu
           </h2>
           <p className="tracking-wide">
-          Discover a world of flavor with our diverse boba tea menu! Take advantage of our handcrafted boba teas, from classic milk teas to vibrant fruit teas. Perfect for any event, our offerings include customizable options to suit your taste and dietary needs. Elevate your next event and treat your guests to an unforgettable beverage experience!
+            Discover a world of flavor with our diverse boba tea menu! Take
+            advantage of our handcrafted boba teas, from classic milk teas to
+            vibrant fruit teas. Perfect for any event, our offerings include
+            customizable options to suit your taste and dietary needs. Elevate
+            your next event and treat your guests to an unforgettable beverage
+            experience!
           </p>
         </div>
         {wholeMenu.map((menu, menuIndex) => (
