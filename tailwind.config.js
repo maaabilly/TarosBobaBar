@@ -18,6 +18,7 @@ export default {
         pricing: "url('./assets/svg/bottomWave.svg')",
         hero: "url('./assets/svg/heroWave.svg')",
         'outline-wave': "url('./assets/svg/outlineWave.svg')",
+        menuDescriptionBg: "url('/src/assets/images/menu-bg.jpg')"
       },
     },
   },

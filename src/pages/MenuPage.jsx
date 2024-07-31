@@ -1,4 +1,4 @@
-import { menuBg } from '../assets';
+import { menuBg, menuBg2 } from '../assets';
 import NavLogo from '../components/NavLogo';
 import { wholeMenu } from '../constants';
 
@@ -9,7 +9,8 @@ const Menu = () => {
   return (
     <div className="w-full mx-auto mb-20">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center items-center">
-        <NavLogo className={'my-5'} />
+        <NavLogo className={'my-5'} width={200} height={200} />
+        {/* <img src={menuBg2} alt="drinks photo" className='px-10  mx-auto'/> */}
         <div className="flex flex-col mx-10 justify-center items-center max-w-[800px]">
           <h2 className="playfair md:text-4xl sm:text-3xl text-2xl text-center font-bold mt-2 mb-4 uppercase text-slate-800 tracking-wide">
             explore our menu

@@ -44,8 +44,9 @@ import lychee from './images/lychee.jpg';
 import mango from './images/mango.jpg';
 import passionfruit from './images/passionfruit.jpg';
 import orange from './images/orange.jpg';
-import peach from './images/peach.jpg'; 
-import menuBg from './images/menu-bg.jpg'
+import peach from './images/peach.jpg';
+import menuBg from './images/menu-bg.jpg';
+import menuBg2 from './images/menu-bg2.jpg';
 
 export {
   bobaIsLife,
@@ -95,5 +96,6 @@ export {
   passionfruit,
   peach,
   orange,
-  menuBg
+  menuBg,
+  menuBg2,
 };
