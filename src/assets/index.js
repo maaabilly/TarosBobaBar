@@ -47,6 +47,11 @@ import orange from './images/orange.jpg';
 import peach from './images/peach.jpg';
 import menuBg from './images/menu-bg.jpg';
 import menuBg2 from './images/menu-bg2.jpg';
+import mintyOrangeDream from './images/minty-orange-dream.jpg';
+import pandanWaffle from './images/pandan-waffle.png';
+import cookiesTaro from './images/cookies-taro.jpg';
+import strawberryCream from './images/strawberry-cream.jpg';
+import lycheeCucumberCooler from './images/lychee-cucumber-cooler.jpg';
 
 export {
   bobaIsLife,
@@ -98,4 +103,9 @@ export {
   orange,
   menuBg,
   menuBg2,
+  mintyOrangeDream,
+  pandanWaffle,
+  cookiesTaro,
+  strawberryCream,
+  lycheeCucumberCooler,
 };

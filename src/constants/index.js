@@ -34,6 +34,11 @@ import {
   passionfruit,
   peach,
   orange,
+  strawberryCream,
+  lycheeCucumberCooler,
+  cookiesTaro,
+  mintyOrangeDream,
+  pandanWaffle,
 } from '../assets';
 
 export const navigation = [
@@ -235,6 +240,41 @@ export const onSiteService = [
 ];
 
 export const wholeMenu = [
+  {
+    title: 'Specialties',
+    subtitle: '*Only available with Premium On-Site Barista Service',
+    items: [
+      {
+        name: 'Strawberry & Cream',
+        image: strawberryCream,
+        description:
+          'Floral jasmine milk tea served with our homemade strawberry crema topped with fresh strawberries.',
+      },
+      {
+        name: 'Lychee Cucumber Cooler',
+        image: lycheeCucumberCooler,
+        description:
+          'A refreshing twist on our lychee green ea, infused with hydrating cucumbers and a hint of mint.',
+      },
+      {
+        name: 'Cookies & Taro',
+        image: cookiesTaro,
+        description:
+          "Taro's take on cookies and cream is our house black milk tea served with a rich taro crema topped with oreo crumbs.",
+      },
+      {
+        name: 'Minty orange dream',
+        image: mintyOrangeDream,
+        description:
+          'Our light green tea infused with orange and fresh picked mint leaves topped with orange slices.',
+      },
+      {
+        name: 'pandan waffle',
+        image: pandanWaffle,
+        description: `Our take on Vietnamese pandan waffles (otherwise known as Banh Kep La Dua) features a sweet pandan aroma, subtile vanilla-coconut flavor while offering a fluffy inside and crispy outside.`,
+      },
+    ],
+  },
   {
     title: 'Milk Teas',
     items: [

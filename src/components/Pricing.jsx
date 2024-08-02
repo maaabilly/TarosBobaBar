@@ -212,10 +212,6 @@ const Pricing = () => {
                       <li className="flex items-center gap-5">
                         <LuAlertCircle size={25} /> Toppings not included
                       </li>
-                      <li className="flex items-center gap-5">
-                        <LuAlertCircle size={25} className="flex-none" />
-                        See menu for Samples Options
-                      </li>
                     </ul>
                   </div>
                 </div>
