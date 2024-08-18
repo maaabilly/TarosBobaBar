@@ -64,7 +64,7 @@ export const hero = {
       'Anniversaries!',
     ],
     classes:
-      'lg:text-6xl md:text-5xl text-[2.8rem] leading-[3rem] font-bold h-[70px] sm:h-full playfair',
+      'lg:text-6xl md:text-5xl text-[2.5rem] leading-[3rem] font-bold h-[70px] sm:h-full playfair',
   },
 };
 

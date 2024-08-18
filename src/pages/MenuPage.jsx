@@ -32,7 +32,7 @@ const Menu = () => {
             <ul
               className={
                 menuIndex !== wholeMenu.length - 1
-                  ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lato'
+                  ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lato px-10 md:px-0'
                   : 'flex flex-wrap justify-center items-center gap-10 max-w-[800px]'
               }
             >

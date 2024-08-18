@@ -17,7 +17,7 @@ const Services = () => {
               <img src={barista} alt="barista" className="rounded-3xl" />
             </div>
             <div className="flex justify-start flex-col flex-1 w-full pl-2 md:pl-10">
-              <h2 className="mt-4 mb-2 text-2xl">Premium On Site Barista</h2>
+              <h2 className="mt-4 mb-2 text-xl">Premium On Site Barista</h2>
               <p className="pb-4">
                 Includes the Full Service On-Site plus additional features like
                 a wider selection of flavors and customization options.

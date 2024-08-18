@@ -10,7 +10,7 @@ const Tabs = ({ children }) => {
 
   return (
     <div className="w-full">
-      <div className="flex border-b border-gray-300 mx-6 md:mx-10 md:mb-15">
+      <div className="flex border-b border-gray-300 md:mx-10 md:mb-15">
         {children.map((child) => (
           <button
             key={child.props.label}

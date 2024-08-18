@@ -48,7 +48,7 @@ const Pricing = () => {
           <p className="text-slate-700 text-center uppercase font-bold">
             How may we serve you?
           </p>
-          <h2 className="playfair md:text-4xl sm:text-3xl text-2xl text-center font-bold mt-2 mb-[2.5rem]">
+          <h2 className="playfair md:text-5xl sm:text-4xl text-3xl text-center font-bold mt-2 mb-[2.5rem]">
             Our Services
           </h2>
         </div>
@@ -64,18 +64,18 @@ const Pricing = () => {
                       className="rounded-3xl"
                     />
                   </div>
-                  <div className="flex justify-start flex-col gap-2 flex-1 px-10 pl-2 md:pl-10">
+                  <div className="flex justify-start flex-col gap-2 flex-1 md:pl-10">
                     <h4 className="hidden lg:block text-2xl md:text-3xl font-medium mb-2">
                       Premium On Site Barista
                     </h4>
-                    <p className="text-2xl mt-2 ">Starting at</p>
+                    <p className="text-xl mt-2 ">Starting at</p>
                     <div className="flex justify-start text-5xl md:text-6xl mb-4">
-                      <span className="mt-2 text-2xl md:text-3xl">$</span>500{' '}
-                      <span className="ml-2 self-end text-2xl md:text-3xl">
+                      <span className="mt-2 text-xl md:text-3xl">$</span>500{' '}
+                      <span className="ml-2 self-end text-xl md:text-3xl">
                         /hour
                       </span>
                     </div>
-                    <ul className="flex flex-col gap-3 text-[1.2rem] mb-4">
+                    <ul className="flex flex-col gap-3 text-lg mb-4">
                       <li className="flex items-center gap-5">
                         <LuAlertCircle size={25} /> Minimum 2 Hours Service
                       </li>
@@ -86,7 +86,7 @@ const Pricing = () => {
                         <LuAlertCircle size={25} /> No Non-Caffeinated Options
                       </li>
                     </ul>
-                    <p className="text-lg md:text-xl">
+                    <p className="md:text-xl">
                       We will bring our ENTIRE menu to your event and have
                       professional on-site baristas making drinks to order. Your
                       guests will enjoy endless possibilities for tea flavor,
@@ -128,10 +128,10 @@ const Pricing = () => {
                     <h4 className="hidden lg:block text-2xl md:text-3xl font-medium mb-2">
                       Fully Equipped Self Serve Boba Station
                     </h4>
-                    <p className="text-2xl mt-2 ">Starting at</p>
+                    <p className="text-xl mt-2 ">Starting at</p>
                     <div className="flex justify-start text-5xl md:text-6xl mb-4">
-                      <span className="mt-2 text-2xl md:text-3xl">$</span>500
-                      <span className="ml-2 self-end text-2xl md:text-3xl">
+                      <span className="mt-2 text-xl md:text-3xl">$</span>500
+                      <span className="ml-2 self-end text-xl md:text-3xl">
                         /station
                       </span>
                     </div>
@@ -189,10 +189,10 @@ const Pricing = () => {
                     <h4 className="hidden lg:block text-2xl md:text-3xl font-medium mb-2">
                       Pre-packaged Boba Delivery
                     </h4>
-                    <p className="text-2xl mt-2 ">Starting at</p>
+                    <p className="text-xl mt-2 ">Starting at</p>
                     <div className="flex justify-start text-5xl md:text-6xl mb-4">
-                      <span className="mt-2 text-2xl md:text-3xl">$</span>6{' '}
-                      <span className="ml-2 self-end text-2xl md:text-3xl">
+                      <span className="mt-2 text-xl md:text-3xl">$</span>6{' '}
+                      <span className="ml-2 self-end text-xl md:text-3xl">
                         /drink
                       </span>
                     </div>

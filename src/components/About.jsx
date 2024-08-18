@@ -8,22 +8,22 @@ const About = () => {
       id="about"
     >
       <div className="max-w-[1240px] mx-auto px-4 flex flex-col lg:flex-row justify-center items-center">
-        <div className="flex justify-center px-10 overflow-hidden">
+        <div className="flex justify-center px-2 overflow-hidden">
           <img
             src={tbbTshirt}
             alt="Boba catering private event"
-            className="neumorphism mx-20 my-10 rounded-[20%] object-cover w-[400px] h-[400px] md:w-[500px] md:h-[500px] "
+            className="mx-20 my-10 rounded-[10%] object-cover w-[500px] h-[400px] md:w-[500px] md:h-[500px] "
           />
         </div>
 
-        <div className="flex flex-col justify-center items-center px-10 lg:items-start ">
+        <div className="flex flex-col justify-center items-center px-5 lg:items-start ">
           <p className="text-slate-700 uppercase font-bold">
             {about.subheading}
           </p>
-          <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold mt-2 mb-4 playfair">
+          <h2 className="md:text-5xl sm:text-4xl text-3xl font-bold mb-5 playfair">
             {about.heading}
           </h2>
-          <h3 className="text-slate-700 max-w-[700px] mb-10 text-lg md:text-xl">
+          <h3 className="text-slate-700 max-w-[800px] mb-10 md:text-xl">
             {about.content}
           </h3>
         </div>
